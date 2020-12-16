@@ -32,15 +32,9 @@ services:
       - $PROXYDIR/data/traefik.yml:/traefik.yml:ro
       - $PROXYDIR/data/acme.json:/acme.json
       # Add folder with dynamic configuration yml
-      - $PROXYDIRdata/configurations:/configurations
+      - $PROXYDIR/data/configurations:/configurations
       # Shared folder (Basic Auth)
       - $PROXYDIR/shared:/shared
-      
-     environment:
-      - DOMAINNAME=$DOMAINNAME
-      - MY_EMAIL=$MY_EMAIL
-      - PROXYDIR=$PROXYDIR
-      #- TRAEFIK_PILOT_TOKEN=$TRAEFIK_PILOT_TOKEN
 
     networks:
       - proxy:
