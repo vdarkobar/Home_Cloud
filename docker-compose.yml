@@ -41,7 +41,7 @@ services:
 
     networks:
       - proxy:
-        ipv4_address: 192.168.90.254 # Static IP
+          ipv4_address: 192.168.90.254 # Static IP
 
     labels:
       - "traefik.enable=true"
@@ -53,4 +53,5 @@ services:
       
 networks:
   proxy:
-    external: true
+    external:
+      name: proxy
