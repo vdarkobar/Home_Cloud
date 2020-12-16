@@ -13,6 +13,7 @@ entryPoints:
     address: :443
     http:
       middlewares:
+        - rate-limit@file
         - secureHeaders@file
       tls:
         certResolver: letsencrypt
