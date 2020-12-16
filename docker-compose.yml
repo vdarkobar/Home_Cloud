@@ -53,5 +53,4 @@ services:
       
 networks:
   proxy:
-    external:
-      name: proxy
+    external: true
