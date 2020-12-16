@@ -29,10 +29,12 @@ services:
     volumes:
       - /etc/localtime:/etc/localtime:ro
       - /var/run/docker.sock:/var/run/docker.sock:ro
-      - ./data/traefik.yml:/traefik.yml:ro
-      - ./data/acme.json:/acme.json
+      - $PROXYDIR/data/traefik.yml:/traefik.yml:ro
+      - $PROXYDIR/data/acme.json:/acme.json
       # Add folder with dynamic configuration yml
-      - ./data/configurations:/configurations
+      - $PROXYDIRdata/configurations:/configurations
+      # Shared folder (Basic Auth)
+      - $PROXYDIR/shared:/shared
 
     networks:
       - proxy:
@@ -42,7 +44,7 @@ services:
       - "traefik.enable=true"
       - "traefik.docker.network=proxy"
       - "traefik.http.routers.traefik-secure.entrypoints=websecure"
-      - "traefik.http.routers.traefik-secure.rule=Host(`traefik.yourdomain`)"
+      - "traefik.http.routers.traefik-secure.rule=Host(`traefik.$DOMAINNAME`)"
       - "traefik.http.routers.traefik-secure.middlewares=user-auth@file"
       - "traefik.http.routers.traefik-secure.service=api@internal"
       
