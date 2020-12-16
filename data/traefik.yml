@@ -22,8 +22,8 @@ providers:
     endpoint: "unix:///var/run/docker.sock"
     exposedByDefault: false
   file:
-    #filename: /configurations/dynamic.yml
-    directory: /configurations
+    filename: /configurations/dynamic.yml
+    #directory: /configurations
     watch: true
 
 certificatesResolvers:
