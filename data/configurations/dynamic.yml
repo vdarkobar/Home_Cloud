@@ -1,0 +1,45 @@
+# Dynamic configuration
+http:
+  middlewares:
+    secureHeaders:
+      headers:
+        sslRedirect: true
+        forceSTSHeader: true
+        stsIncludeSubdomains: true
+        stsPreload: true
+        stsSeconds: 31536000   
+             
+    # UserName : darko
+    # Password : XRilWJNHd1JlhYV2u916@2L4^Yi0h8Y%zzQ9y3l0^1aiiTHaUK
+    user-auth:
+      basicAuth:
+        #users:
+        #  - "darko:$2y$10$bFMIxoovjpWmk.2bBNuIeuUf9MrfKEbMt1Cq0Wp5J3i.fnpUOU7Pa"
+        usersFile: "/shared/.htpasswd" #be sure to mount the volume through docker-compose.yml
+        realm: "Traefik 2 Basic Auth"
+
+    # Mitigate DDOS attacks
+    rate-limit:
+      rateLimit:
+        average: 100
+        burst: 50 
+          
+tls:
+  options:
+    tls-opts:
+      cipherSuites:
+        - TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256
+        - TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+        - TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384
+        - TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+        - TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305
+        - TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305
+        - TLS_AES_128_GCM_SHA256
+        - TLS_AES_256_GCM_SHA384
+        - TLS_CHACHA20_POLY1305_SHA256
+        - TLS_FALLBACK_SCSV # Client is doing version fallback. See RFC 7507
+      curvePreferences:
+        - CurveP521
+        - CurveP384
+      sniStrict: true
+      minVersion: VersionTLS12
