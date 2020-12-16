@@ -35,6 +35,9 @@ services:
       - $PROXYDIR/data/configurations:/configurations
       # Shared folder (Basic Auth)
       - $PROXYDIR/shared:/shared
+      
+    environmet:
+      - TRAEFIK_CERTIFICATESRESOLVERS_LETSENCRYPT_ACME_EMAIL=$MY_EMAIL
 
     networks:
       - proxy:
