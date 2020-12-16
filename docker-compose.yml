@@ -36,7 +36,7 @@ services:
       # Shared folder (Basic Auth)
       - $PROXYDIR/shared:/shared
       
-    environmet:
+    environment:
       - TRAEFIK_CERTIFICATESRESOLVERS_LETSENCRYPT_ACME_EMAIL=$MY_EMAIL
 
     networks:
