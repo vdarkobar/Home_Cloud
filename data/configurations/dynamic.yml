@@ -2,13 +2,33 @@
 http:
   middlewares:
     secureHeaders:
-      headers:
+        accessControlAllowMethods:
+          - GET
+          - OPTIONS
+          - PUT
+        accessControlMaxAge: 100
+        hostsProxyHeaders:
+          - "X-Forwarded-Host"
         sslRedirect: true
-        forceSTSHeader: true
+        stsSeconds: 63072000
         stsIncludeSubdomains: true
         stsPreload: true
-        stsSeconds: 31536000   
-             
+        forceSTSHeader: true
+        # frameDeny: true #overwritten by customFrameOptionsValue
+        customFrameOptionsValue: "allow-from https:example.com" #CSP takes care of this but may be needed for organizr.
+        contentTypeNosniff: true
+        browserXssFilter: true
+        # sslForceHost: true # add sslHost to all of the services
+        # sslHost: "example.com"
+        referrerPolicy: "same-origin"
+        # Setting contentSecurityPolicy is more secure but it can break things. Proper auth will reduce the risk.
+        # the below line also breaks some apps due to 'none' - sonarr, radarr, etc.
+        # contentSecurityPolicy: "frame-ancestors '*.example.com:*';object-src 'none';script-src 'none';"
+        featurePolicy: "camera 'none'; geolocation 'none'; microphone 'none'; payment 'none'; usb 'none'; vr 'none';"
+        customResponseHeaders:
+          X-Robots-Tag: "none,noarchive,nosnippet,notranslate,noimageindex,"
+          server: ""  
+
     # UserName : darko
     # Password : XRilWJNHd1JlhYV2u916@2L4^Yi0h8Y%zzQ9y3l0^1aiiTHaUK
     user-auth:
