@@ -13,7 +13,6 @@ entryPoints:
     address: :443
     http:
       middlewares:
-        - rate-limit@file
         - secureHeaders@file
       tls:
         certResolver: letsencrypt
@@ -23,8 +22,8 @@ providers:
     endpoint: "unix:///var/run/docker.sock"
     exposedByDefault: false
   file:
-    filename: /configurations/dynamic.yml
-    #directory: /configurations
+    #filename: /configurations/dynamic.yml
+    directory: /configurations/
     watch: true
 
 certificatesResolvers:
@@ -33,14 +32,18 @@ certificatesResolvers:
       email: vdarkobar@gmail.com
       storage: acme.json
       keyType: EC384
-      httpChallenge:
-        entryPoint: web
-        
+#      httpChallenge:
+#        entryPoint: web
+      dnsChallenge:
+        provider: cloudflare
+        delayBeforeCheck: 90
+
+
   buypass:
     acme:
       email: vdarkobar@gmail.com
       storage: acme.json
-      caServer: https://api.buypass.com/acme/directory 
+      caServer: https://api.buypass.com/acme/directory
       keyType: EC256
       httpChallenge:
         entryPoint: web
