@@ -2,32 +2,12 @@
 http:
   middlewares:
     secureHeaders:
-        accessControlAllowMethods:
-          - GET
-          - OPTIONS
-          - PUT
-        accessControlMaxAge: 100
-        hostsProxyHeaders:
-          - "X-Forwarded-Host"
+      headers:
         sslRedirect: true
-        stsSeconds: 63072000
+        forceSTSHeader: true
         stsIncludeSubdomains: true
         stsPreload: true
-        forceSTSHeader: true
-        # frameDeny: true #overwritten by customFrameOptionsValue
-        customFrameOptionsValue: "allow-from https:example.com" #CSP takes care of this but may be needed for organizr.
-        contentTypeNosniff: true
-        browserXssFilter: true
-        # sslForceHost: true # add sslHost to all of the services
-        # sslHost: "example.com"
-        referrerPolicy: "same-origin"
-        # Setting contentSecurityPolicy is more secure but it can break things. Proper auth will reduce the risk.
-        # the below line also breaks some apps due to 'none' - sonarr, radarr, etc.
-        # contentSecurityPolicy: "frame-ancestors '*.example.com:*';object-src 'none';script-src 'none';"
-        featurePolicy: "camera 'none'; geolocation 'none'; microphone 'none'; payment 'none'; usb 'none'; vr 'none';"
-        customResponseHeaders:
-          X-Robots-Tag: "none,noarchive,nosnippet,notranslate,noimageindex,"
-          server: ""  
+        stsSeconds: 31536000
 
     # UserName : darko
     # Password : XRilWJNHd1JlhYV2u916@2L4^Yi0h8Y%zzQ9y3l0^1aiiTHaUK
@@ -36,15 +16,9 @@ http:
         users:
           - "darko:$2y$10$bFMIxoovjpWmk.2bBNuIeuUf9MrfKEbMt1Cq0Wp5J3i.fnpUOU7Pa"
 
-    # Mitigate DDOS attacks
-    rate-limit:
-      rateLimit:
-        average: 100
-        burst: 50 
-          
 tls:
   options:
-    tls-opts:
+    default:
       cipherSuites:
         - TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256
         - TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
@@ -59,5 +33,5 @@ tls:
       curvePreferences:
         - CurveP521
         - CurveP384
-      #sniStrict: true
       minVersion: VersionTLS12
+      sniStrict: true
