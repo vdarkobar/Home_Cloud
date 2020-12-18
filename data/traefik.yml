@@ -13,16 +13,18 @@ entryPoints:
     address: :443
     http:
       middlewares:
+        - rate-limit@file
         - secureHeaders@file
+
       tls:
         certResolver: letsencrypt
-              
+
 providers:
   docker:
     endpoint: "unix:///var/run/docker.sock"
     exposedByDefault: false
   file:
-    filename: /configurations/dynamic.yml
+    directory: /configurations/ #dynamic.yml
 
 certificatesResolvers:
   letsencrypt:
@@ -32,12 +34,20 @@ certificatesResolvers:
       keyType: EC384
       httpChallenge:
         entryPoint: web
-        
+
   buypass:
     acme:
       email: vdarkobar@gmail.com
       storage: acme.json
-      caServer: https://api.buypass.com/acme/directory 
+      caServer: https://api.buypass.com/acme/directory
       keyType: EC256
       httpChallenge:
         entryPoint: web
+
+log:
+  filePath: /data/traefik.log
+  level: DEBUG
+
+accessLog:
+  filePath: /data/access.log
+  bufferingSize: 100
