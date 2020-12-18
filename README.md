@@ -15,7 +15,7 @@ sudo chmod 600 ~/proxy/data/acme.json
 ##### Start and check:
 ```
 # change domain name first
-sudo nano /proxy/docker-compose.yml 
+sudo nano proxy/docker-compose.yml 
 sudo docker-compose up -d
 sudo docker logs -tf --tail="50" traefik
 ```
