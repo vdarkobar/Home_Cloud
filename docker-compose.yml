@@ -14,6 +14,7 @@ services:
       - /etc/localtime:/etc/localtime:ro
       - /var/run/docker.sock:/var/run/docker.sock:ro
       - ./data/traefik.yml:/traefik.yml:ro
+      - ./data/traefik.log:/traefik.log
       - ./data/acme.json:/acme.json
       # Add folder with dynamic configuration yml
       - ./data/configurations:/configurations
