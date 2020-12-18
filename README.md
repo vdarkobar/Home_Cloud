@@ -13,13 +13,20 @@ git clone https://vdarkobar:2211620c9da5dab0c7bb77e9aeb02087d293b293@github.com/
 sudo chmod 600 ~/proxy/data/acme.json
 ```
 ##### Start and check:
+
+##### Create docker network
 ```
-# create docker network
 sudo docker network create proxy
-# change domain name
+```
+##### Change domain name
+```
 sudo nano proxy/docker-compose.yml
-# start
+```
+##### Start
+```
 sudo docker-compose -f proxy/docker-compose.yml up -d
-# log
+```
+##### Log
+```
 sudo docker logs -tf --tail="50" traefik
 ```
