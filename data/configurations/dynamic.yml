@@ -15,10 +15,17 @@ http:
       basicAuth:
         users:
           - "darko:$2y$10$bFMIxoovjpWmk.2bBNuIeuUf9MrfKEbMt1Cq0Wp5J3i.fnpUOU7Pa"
+          
+    # Mitigate DDOS Attacks
+    rate-limit:
+      rateLimit:
+        average: 100
+        burst: 50
 
 tls:
   options:
     default:
+      minVersion: VersionTLS12
       cipherSuites:
         - TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256
         - TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
@@ -33,5 +40,4 @@ tls:
       curvePreferences:
         - CurveP521
         - CurveP384
-      minVersion: VersionTLS12
-      sniStrict: true
+#      sniStrict: true
