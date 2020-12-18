@@ -15,7 +15,7 @@ http:
       basicAuth:
         users:
           - "darko:$2y$10$bFMIxoovjpWmk.2bBNuIeuUf9MrfKEbMt1Cq0Wp5J3i.fnpUOU7Pa"
-          
+
     # Mitigate DDOS Attacks
     rate-limit:
       rateLimit:
