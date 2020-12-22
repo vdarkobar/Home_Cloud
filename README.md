@@ -10,10 +10,11 @@ sudo docker network create proxy
 ```
 echo -n "Enter directory name: "; read NAME; mkdir -p "$NAME"; cd "$NAME" \
 && git clone https://vdarkobar:2211620c9da5dab0c7bb77e9aeb02087d293b293@github.com/vdarkobar/Traefik2.git .
-# set permissions
+```
+#### Set permissions
+```
 sudo chmod 600 data/acme.json
 ```
-
 ##### Change domain name
 ```
 sudo nano docker-compose.yml
