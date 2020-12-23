@@ -3,7 +3,7 @@
 
 ##### Create docker network
 ```
-sudo docker network create proxy
+sudo docker network create traefik
 ```
 
 ### Clone this git repository:
