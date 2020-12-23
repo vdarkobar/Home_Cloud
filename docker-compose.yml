@@ -19,7 +19,7 @@ services:
       # Add folder with dynamic configuration yml
       - ./data/configurations:/configurations
     networks:
-      - proxy
+      - traefik
     labels:
       - "traefik.enable=true"
       - "traefik.docker.network=proxy"
@@ -29,5 +29,5 @@ services:
       - "traefik.http.routers.traefik-secure.service=api@internal"
 
 networks:
-  proxy:
+  traefik:
     external: true
