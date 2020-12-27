@@ -1,0 +1,28 @@
+version: "3.8"
+
+networks:
+  proxy:
+    external:
+      name: proxy
+
+services:
+  traefik:
+    container_name: traefik
+    image: traefik:latest
+    restart: always
+    security_opt:
+      - no-new-privileges:true
+    command:
+      - --global.checkNewVersion=true
+      - --global.sendAnonymousUsage=true
+      
+      - --api=true
+      - --api.dashboard=true
+      
+      
+      
+      
+      
+      
+      
+      
