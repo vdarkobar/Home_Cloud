@@ -21,8 +21,7 @@ sudo nano docker-compose.yml
 ```
 ##### Start
 ```
-sudo docker-compose up -d
-# sudo docker-compose up -d --force-recreate
+sudo docker-compose up -d        # If needed: sudo docker-compose up -d --force-recreate
 ```
 ##### Log
 ```
