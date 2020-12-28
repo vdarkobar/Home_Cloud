@@ -30,6 +30,8 @@ services:
       - --log=true
       - --log.level=DEBUG
 
+#      - --pilot.token=
+
       - --accessLog=true
       - --accessLog.filePath=/traefik.log
       - --accessLog.bufferingSize=100
