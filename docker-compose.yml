@@ -89,7 +89,8 @@ services:
       - /var/run/docker.sock:/var/run/docker.sock:ro
       - ./data/acme.json:/acme.json
       - ./traefik.log:/traefik.log
-      # Add folder with dynamic configuration yml
+      - ./shared:/shared
+      # Folder containing dynamic config files (.yml)
       - ./data/configurations:/configurations
 
     networks:
