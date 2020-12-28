@@ -12,6 +12,8 @@ secrets:
     file: ./secrets/cloudflare_api_key.secret
 
 services:
+
+  # The Cloud Native Edge Router
   traefik:
     image: traefik:latest
     container_name: traefik
@@ -78,6 +80,7 @@ services:
         mode: host
 
     environment:
+      - TZ=Germany/Berlin
       - CF_API_EMAIL_FILE=/run/secrets/cloudflare_email
       - CF_API_KEY_FILE=/run/secrets/cloudflare_api_key
 
@@ -116,3 +119,19 @@ services:
       - ./portainer/data:/data
     environment:
       - TZ=Germany/Berlin
+
+  # WatchTower - Automatic Docker Container Updates
+  watchtower:
+    image: containrrr/watchtower
+    container_name: watchtower
+    restart: always
+    networks:
+      - traefik
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
+    environment:
+      - TZ=Germany/Berlin
+      - WATCHTOWER_CLEANUP=true
+      - WATCHTOWER_REMOVE_VOLUMES=true
+      - WATCHTOWER_INCLUDE_STOPPED=true
+      - WATCHTOWER_SCHEDULE=0 30 5 * * * # Everyday at 5:30
