@@ -32,7 +32,7 @@ services:
       - --log=true
       - --log.level=DEBUG
 
-#      - --pilot.token=
+      - --pilot.token=cn96l5!Y^c9%$u*0GSQUVjIWUe9Dkpj3zU1%dqC&xPkyrC*kTw
 
       - --accessLog=true
       - --accessLog.filePath=/traefik.log
