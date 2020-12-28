@@ -26,4 +26,5 @@ sudo docker-compose up -d        # If needed: sudo docker-compose up -d --force-
 ##### Log
 ```
 sudo docker logs -tf --tail="50" traefik
+sudo docker-compose logs traefik
 ```
