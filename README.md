@@ -5,7 +5,6 @@
 ```
 sudo docker network create traefik
 ```
-
 ### Clone this git repository:
 ```
 echo -n "Enter directory name: "; read NAME; mkdir -p "$NAME"; cd "$NAME" \
@@ -14,6 +13,7 @@ echo -n "Enter directory name: "; read NAME; mkdir -p "$NAME"; cd "$NAME" \
 #### Set permissions
 ```
 sudo chmod 600 data/acme.json
+sudo chown -R root:root secrets/
 ```
 ##### Change domain name
 ```
@@ -22,6 +22,7 @@ sudo nano docker-compose.yml
 ##### Start
 ```
 sudo docker-compose up -d
+# sudo docker-compose up -d --force-recreate
 ```
 ##### Log
 ```
