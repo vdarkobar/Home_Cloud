@@ -32,7 +32,7 @@ services:
       - --log=true
       - --log.level=DEBUG
 
-      - --pilot.token=cn96l5!Y^c9%$u*0GSQUVjIWUe9Dkpj3zU1%dqC&xPkyrC*kTw
+      - --pilot.token=$TRAEFIK_PILOT_TOKEN
 
       - --accessLog=true
       - --accessLog.filePath=/traefik.log
@@ -80,7 +80,7 @@ services:
         mode: host
 
     environment:
-      - TZ=Germany/Berlin
+      - TZ=$TZ
       - CF_API_EMAIL_FILE=/run/secrets/cloudflare_email
       - CF_API_KEY_FILE=/run/secrets/cloudflare_api_key
 
@@ -118,7 +118,7 @@ services:
       - /var/run/docker.sock:/var/run/docker.sock:ro
       - ./portainer/data:/data
     environment:
-      - TZ=Germany/Berlin
+      - TZ=$TZ
 
   # WatchTower - Automatic Docker Container Updates
   watchtower:
@@ -130,7 +130,7 @@ services:
     volumes:
       - /var/run/docker.sock:/var/run/docker.sock
     environment:
-      - TZ=Germany/Berlin
+      - TZ=$TZ
       - WATCHTOWER_CLEANUP=true
       - WATCHTOWER_REMOVE_VOLUMES=true
       - WATCHTOWER_INCLUDE_STOPPED=true
