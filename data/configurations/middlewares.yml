@@ -20,8 +20,10 @@ http:
     # Password : XRilWJNHd1JlhYV2u916@2L4^Yi0h8Y%zzQ9y3l0^1aiiTHaUK
     user-auth:
       basicAuth:
-        users:
-          - "darko:$2y$10$bFMIxoovjpWmk.2bBNuIeuUf9MrfKEbMt1Cq0Wp5J3i.fnpUOU7Pa"
+#        users:
+#          - "darko:$2y$10$bFMIxoovjpWmk.2bBNuIeuUf9MrfKEbMt1Cq0Wp5J3i.fnpUOU7Pa"
+        usersFile: "/shared/.htpasswd" # Mount the volume through docker-compose.yml
+        realm: "Traefik 2 Basic Auth"
 
     # Mitigate DDOS Attacks
     rate-limit:
