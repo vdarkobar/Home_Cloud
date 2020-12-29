@@ -26,6 +26,9 @@ services:
       - cloudflare_api_key
 
     command:
+      - --global.checkNewVersion=true
+      - --global.sendAnonymousUsage=true
+
       - --api=true
       - --api.dashboard=true
 
