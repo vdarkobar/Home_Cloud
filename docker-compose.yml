@@ -57,6 +57,8 @@ services:
       - --providers.docker.exposedbydefault=false
       - --providers.file.directory=/configurations
       - --providers.file.watch=true
+      
+      - --providers.docker.swarmMode=false
 
       - --providers.docker.network=traefik
 
