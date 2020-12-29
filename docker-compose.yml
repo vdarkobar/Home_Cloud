@@ -78,14 +78,8 @@ services:
       - --entrypoints.websecure.http.tls.options=default
 
     ports:
-      - target: 80
-        published: 80
-        protocol: tcp
-        mode: host
-      - target: 443
-        published: 443
-        protocol: tcp
-        mode: host
+      - 80:80
+      - 443:443
 
     environment:
       - TZ=$TZ
