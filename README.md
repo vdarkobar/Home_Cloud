@@ -31,12 +31,11 @@ For WWW redirect.
 
 DNS Settings:  
 
-<img align="middle" src="https://github.com/vdarkobar/misc/blob/main/cloudflare-dns-entries-740x226.webp" alt="DNS Management for a domain" />
- 
+<p class="aligncenter"> 
 ![alt text](https://github.com/vdarkobar/misc/blob/main/cloudflare-dns-entries-740x226.webp "DNS Management for a domain")  
 ![alt text](https://github.com/vdarkobar/misc/blob/main/cloudflare-dns-records-for-traefik-2-740x290.webp "DNS Management for a domain")  
 ![alt text](https://github.com/vdarkobar/misc/blob/main/cloudflare-full-ssl-for-traefik-docker-setup.webp "DNS Management for a domain")  
-
+</p>
    
 wait for a few minutes for the DNS entries to propagate. 
   
