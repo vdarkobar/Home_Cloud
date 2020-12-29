@@ -3,15 +3,15 @@ http:
     chain-no-auth:
       chain:
         middlewares:
-          - middlewares-rate-limit
-          - middlewares-secure-headers
+          - rate-limit
+          - secure-headers
 
     chain-basic-auth:
       chain:
         middlewares:
-          - middlewares-rate-limit
-          - middlewares-secure-headers
-          - middlewares-basic-auth
+          - rate-limit
+          - secure-headers
+          - basic-auth
 
 #    chain-oauth:
 #      chain:
