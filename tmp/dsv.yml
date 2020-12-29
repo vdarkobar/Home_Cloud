@@ -1,0 +1,52 @@
+http:
+
+  # All Routers
+  routers:
+
+    # Dubravka Web-site - main router
+    dsv:
+      service: ghost-service
+      middlewares:
+        - www-redirect@file
+      entryPoints:
+        - "websecure"
+      rule: "Host(`dsvtranslations.com`) || Host(`www.dsvtranslations.com`)"
+
+    # Dubravka -  Bitwarden Websocker router
+    bitwarden-ws:
+      service: bitwarden-websocket
+      middlewares:
+        - bw-stripPrefix@file
+      entryPoints:
+        - "websecure"
+      rule: "Host(`bw.dsvtranslations.com`) && Path(`/notifications/hub`)"
+
+    # Dubravka - Bitwarden router
+    bitwarden-ws:
+      service: bitwarden-service
+      middlewares:
+      entryPoints:
+        - "websecure"
+      rule: "Host(`bw.dsvtranslations.com`)"
+
+
+  # All Services
+  services:
+
+    # Dubravka Web-site - main service
+    ghost-service:
+      loadBalancer:
+        servers:
+          - url: "http://192.168.110.9:2368"
+
+    # Dubravka - Bitwarden Websocker service
+    bitwarden-websocket:
+      loadBalancer:
+        servers:
+          - url: "http://192.168.110.9:3012"
+
+    # Dubravka - Bitwarden service
+    bitwarden-service:
+      loadBalancer:
+        servers:
+          - url: "http://192.168.110.9:8686"
