@@ -12,7 +12,7 @@
   <img src="https://github.com/vdarkobar/misc/blob/main/reverse-proxy.png">
 </p>
 
-##  CloudFlare prep:  
+## CloudFlare prep:  
 
 Point your root domain (example.com) to your WAN IP using an A record.
 ```
@@ -64,7 +64,7 @@ Firewall Settings:
 
 ---
 
-##  Server prep:  
+## Server prep:  
 
 ```
 sudo apt update
@@ -128,7 +128,7 @@ sudo docker network create --gateway 192.168.90.1 --subnet 192.168.90.0/24 traef
         ipv4_address: 192.168.90.254
 ```
 
-###  Securing Docker:  
+### Securing Docker:  
 
 Do no add user to docker group (sudo usermod -aG docker $USER && logout).  
 Do not mess with the ownership of Docker Socket (/var/run/docker.sock in Linux)  
