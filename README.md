@@ -86,6 +86,7 @@ sudo apt-get install -y \
 --- 
 
 ## Docker, docker-compose:  
+*(swich from fish to bash if command not working)*  
 
 ```
 curl -fsSL https://download.docker.com/linux/debian/gpg | sudo apt-key add -
