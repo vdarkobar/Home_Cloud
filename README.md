@@ -11,7 +11,6 @@
 </p>
   
 <p align="center">
-  <b>______:</b><br>
   <img src="https://github.com/vdarkobar/misc/blob/main/reverse-proxy.png">
   <img src="https://github.com/vdarkobar/misc/blob/main/infrastructure.webp">
   <br><br>
