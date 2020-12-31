@@ -183,7 +183,12 @@ echo -n "Enter directory name: "; read NAME; mkdir -p "$NAME"; cd "$NAME" \
 sudo chmod 600 data/acme.json
 sudo chown -R root:root secrets/
 ```
-### Adjust if necessary:
+### Edit:
+```
+sudo nano secrets/cloudflare_email.secret
+sudo nano secrets/cloudflare_api_key.secret
+```
+### Edit:
 ```
 sudo nano .env
 ```
