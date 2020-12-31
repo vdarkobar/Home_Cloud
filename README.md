@@ -1,8 +1,10 @@
 # Traefik2  
   
 <p align="center">
+  <b>Infrastructure:</b><br>
   <img src="https://github.com/vdarkobar/misc/blob/main/reverse-proxy.png">
   <img src="https://github.com/vdarkobar/misc/blob/main/infrastructure.webp">
+  <br><br>
 </p>
 ## CloudFlare prep:  
 
