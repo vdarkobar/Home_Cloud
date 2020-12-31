@@ -87,7 +87,7 @@ sudo apt-get install -y \
   software-properties-common
   ```
 --- 
-## *>> Enable port forwarding (80, 443) on your router, or gateway, to your Traefik instance (VM).*
+### *>> Enable port forwarding (80, 443) on your router, or gateway, to your Traefik instance (VM).*
 --- 
   
 ### Docker, docker-compose:  
