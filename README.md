@@ -86,11 +86,10 @@ sudo apt-get install -y \
   apache2-utils \
   software-properties-common
   ```
-
-## *>> Enable port forwarding on your router, or gateway to your Traefik instance (VM).*
-
 --- 
-
+## *>> Enable port forwarding on your router, or gateway to your Traefik instance (VM).*
+--- 
+  
 ### Docker, docker-compose:  
 *(swich from fish to bash if command not working)*  
 
