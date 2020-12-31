@@ -1,5 +1,9 @@
 # Traefik2  
   
+<p align="center">
+  <img src="https://github.com/vdarkobar/misc/blob/main/reverse-proxy.png">
+  <img src="https://github.com/vdarkobar/misc/blob/main/infrastructure.webp">
+</p>
 ## CloudFlare prep:  
 
 Point your root domain (example.com) to your WAN IP using an A record.
