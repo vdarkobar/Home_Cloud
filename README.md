@@ -1,18 +1,5 @@
 # Traefik2  
-
-<p align="center">
-  <b>Resources:</b><br>
-  <a href="https://www.smarthomebeginner.com/traefik-2-docker-tutorial/">Link 1</a> |
-  <a href="https://github.com/htpcBeginner/docker-traefik">Link 2</a> |
-  <a href="https://github.com/CVJoint/traefik2">Link 3</a> |
-  <a href="https://tech.aufomm.com/">Link 4</a> |
-  <a href="https://goneuland.de/">Link 5</a> |
-  <a href="https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet">Link 6</a>
-  <br><br>
-  <img src="https://github.com/vdarkobar/misc/blob/main/reverse-proxy.png">
-  <img src="https://github.com/vdarkobar/misc/blob/main/infrastructure.webp">
-</p>
-
+  
 ## CloudFlare prep:  
 
 Point your root domain (example.com) to your WAN IP using an A record.
@@ -194,3 +181,16 @@ sudo docker-compose down -v
 sudo docker-compose logs traefik
 sudo docker logs -tf --tail="50" traefik
 ```
+  
+<p align="center">
+  <b>Resources:</b><br>
+  <a href="https://www.smarthomebeginner.com/traefik-2-docker-tutorial/">Link 1</a> |
+  <a href="https://github.com/htpcBeginner/docker-traefik">Link 2</a> |
+  <a href="https://github.com/CVJoint/traefik2">Link 3</a> |
+  <a href="https://tech.aufomm.com/">Link 4</a> |
+  <a href="https://goneuland.de/">Link 5</a> |
+  <a href="https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet">Link 6</a>
+  <br><br>
+  <img src="https://github.com/vdarkobar/misc/blob/main/reverse-proxy.png">
+  <img src="https://github.com/vdarkobar/misc/blob/main/infrastructure.webp">
+</p>
