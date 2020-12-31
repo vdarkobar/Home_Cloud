@@ -18,7 +18,7 @@
   <br><br>
 </p>
   
-## CloudFlare prep:  
+### CloudFlare prep:  
 
 Point your root domain (example.com) to your WAN IP using an A record.
 ```
@@ -70,7 +70,7 @@ Firewall Settings:
 
 ---
 
-## Server prep:  
+### Server prep:  
 
 ```
 sudo apt update
@@ -91,7 +91,7 @@ sudo apt-get install -y \
 
 --- 
 
-## Docker, docker-compose:  
+### Docker, docker-compose:  
 *(swich from fish to bash if command not working)*  
 
 ```
@@ -151,7 +151,7 @@ DOCKER_OPTS="--iptables=false"
 
 --- 
 
-## Folder/File structure example:  
+### Folder/File structure example:  
 
 <pre>
 traefik2
