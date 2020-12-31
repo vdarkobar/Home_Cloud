@@ -178,24 +178,24 @@ echo -n "Enter directory name: "; read NAME; mkdir -p "$NAME"; cd "$NAME" \
 <!-- This is commented out. 
 ...
 -->
-### Set permissions
+### Set permissions:
 ```
 sudo chmod 600 data/acme.json
 sudo chown -R root:root secrets/
 ```
-### Adjust if necessary
+### Adjust if necessary:
 ```
 sudo nano .env
 ```
-### Start
+### Start:
 ```
 sudo docker-compose up -d
 ```
-### Stop
+### Stop:
 ```
 sudo docker-compose down -v
 ```
-### Log
+### Log:
 ```
 sudo docker-compose logs traefik
 sudo docker logs -tf --tail="50" traefik
