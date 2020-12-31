@@ -6,6 +6,7 @@
   <img src="https://github.com/vdarkobar/misc/blob/main/infrastructure.webp">
   <br><br>
 </p>
+  
 ## CloudFlare prep:  
 
 Point your root domain (example.com) to your WAN IP using an A record.
@@ -18,7 +19,7 @@ Add either a wildcard CNAME (*.example.com) or individual subdomains, all pointi
     CNAME | * | @ (or example.com)
 ```
 
-For WWW redirect.  
+For Non-WWW to WWW redirect.  
 ```
     A | www | YOUR WAN IP
 ```
