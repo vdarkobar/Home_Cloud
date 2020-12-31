@@ -10,7 +10,7 @@
   <a href="https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet">Link 6</a>
   <br><br>
   <img src="https://github.com/vdarkobar/misc/blob/main/reverse-proxy.png">
-  <img src="https://github.com/vdarkobar/misc/blob/main/Traefik2.png">
+  <img src="https://github.com/vdarkobar/misc/blob/main/infrastructure.webp">
 </p>
 
 ## CloudFlare prep:  
