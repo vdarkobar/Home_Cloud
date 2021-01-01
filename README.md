@@ -36,7 +36,7 @@ Add individual subdomains, all pointing to your root domain (@ for the host).
   <img src="https://github.com/vdarkobar/misc/blob/main/sub-domain.webp">
 </p>
   
-For Non-WWW to WWW redirect.  
+Add for non-WWW to WWW redirect.  
 ```
     A | www | YOUR WAN IP
 ```
