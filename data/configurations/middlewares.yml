@@ -31,14 +31,14 @@ http:
         average: 100
         burst: 50
 
-    # WWW - Redirect - DSV
-    www-redirect:
-      redirectRegex:
-        regex: "^https://dsvtranslations.com/(.*)"
-        replacement: "https://www.dsvtranslations.com/${1}"
+    # WWW - Redirect - 1
+#    www-redirect1:
+#      redirectRegex:
+#        regex: "^https://domain1/(.*)"
+#        replacement: "https://www.domain1/${1}"
 
-    # WWW - Redirect - justluna
-    www-redirect-justluna:
-      redirectRegex:
-        regex: "^https://justluna.xyz/(.*)"
-        replacement: "https://www.justluna.xyz/${1}"
+    # WWW - Redirect - 2
+#    www-redirect2:
+#      redirectRegex:
+#        regex: "^https://domain2/(.*)"
+#        replacement: "https://www.domain2/${1}"
