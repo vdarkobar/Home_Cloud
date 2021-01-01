@@ -45,9 +45,9 @@ Add for non-WWW to WWW redirect.
 </p>
   
 <p align="center">
-*Wait for a few minutes for the DNS entries to propagate. Optionally, edit CloudFlare Firewall rules.*  
-    
-*In order to see if Let’s Encrypt is working pause CloudFlare on selected website before running docker-compose (Advanced Actions > Pause Cloudflare on Site).*
+Wait for a few minutes for the DNS entries to propagate. Optionally, edit CloudFlare Firewall rules.
+In order to see if Let’s Encrypt is working pause CloudFlare on selected website before running docker-compose.
+(Advanced Actions > Pause Cloudflare on Site)
 </p>
   
 #### Site settings:  
@@ -93,7 +93,7 @@ sudo apt-get install -y \
 ### *>> Enable port forwarding (80, 443) on your router, or gateway, to your Traefik instance (VM).*
 --- 
   
-### Docker, docker-compose:  
+### Docker:  
 *(swich from fish to bash if command not working)*  
 
 ```
@@ -112,9 +112,14 @@ sudo docker ps -a
 ```
   
 <p align="center">
-  <b><i> Compose is a tool for creating a list of all the containers (along with their configuration) that you want to run. </b></i>
+  <b><i> 
+  Wait for a few minutes for the DNS entries to propagate. Optionally, edit CloudFlare Firewall rules.
+  In order to see if Let’s Encrypt is working pause CloudFlare on selected website before running docker-compose.
+  (Advanced Actions > Pause Cloudflare on Site)
+  </b></i>
 </p>
   
+### Docker Compose:  
 [Check the current Docker Compose release here](https://github.com/docker/compose/releases), update '/1.27.4/' in the command:
 ```
 sudo curl -L https://github.com/docker/compose/releases/download/1.27.4/docker-compose-`uname -s`-`uname -m` -o /usr/local/bin/docker-compose  
