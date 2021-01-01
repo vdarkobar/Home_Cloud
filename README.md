@@ -138,15 +138,12 @@ sudo docker network create --gateway 192.168.90.1 --subnet 192.168.90.0/24 traef
 <p align="center">
 <b>Do no add user to docker group (sudo usermod -aG docker $USER && logout).</b><br>
 <b>Do not mess with the ownership of Docker Socket (/var/run/docker.sock in Linux)</b><br>
-<b>Do not run Docker Containers as Root. Add environmental variables PUID, PGID, to .env file.</b><br>
-<b>Use Privileged Mode Carefully (- no-new-privileges:true)</b><br>
 <b>Change DOCKER_OPTS to Respect IP Table Firewall. Edit /etc/default/docker and add the following line:</b><br>
 </p>
 
 ```
 DOCKER_OPTS="--iptables=false"  
 ```
-
 --- 
 
 #### Folder/File structure example:  
