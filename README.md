@@ -44,10 +44,6 @@ Add for non-WWW to WWW redirect.
   <img src="https://github.com/vdarkobar/misc/blob/main/www.webp">
 </p>
   
-<p align="center">
-Wait for a few minutes for the DNS entries to propagate. Optionally, edit CloudFlare Firewall rules.
-</p>
-  
 #### Site settings:  
 
 <pre>
