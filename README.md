@@ -183,7 +183,7 @@ echo -n "Enter directory name: "; read NAME; mkdir -p "$NAME"; cd "$NAME" \
 sudo chmod 600 data/acme.json
 sudo chown -R root:root secrets/
 ```
-### Edit:
+### Take your <a href="https://dash.cloudflare.com/profile/api-tokens">Global API Key</a>  and 
 ```
 sudo nano secrets/cloudflare_email.secret
 sudo nano secrets/cloudflare_api_key.secret
