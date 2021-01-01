@@ -25,14 +25,17 @@ Point your root domain (example.com) to your WAN IP using an A record.
     A | example.com | YOUR WAN IP
 ```
 <p align="center">
-  <img src="https://github.com/vdarkobar/misc/blob/main/A%20record.webp">
+  <img src="https://github.com/vdarkobar/misc/blob/main/A-record.webp">
 </p>
     
-Add either a wildcard CNAME (*.example.com) or individual subdomains, all pointing to your root domain (@ for the host).  
+Add individual subdomains, all pointing to your root domain (@ for the host).  
 ```
     CNAME | * | @ (or example.com)
 ```
-
+<p align="center">
+  <img src="https://github.com/vdarkobar/misc/blob/main/sub-domain.webp">
+</p>
+  
 For Non-WWW to WWW redirect.  
 ```
     A | www | YOUR WAN IP
