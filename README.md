@@ -204,16 +204,10 @@ PGID=
 PORTAINER_PORT=
 # ...
 ```
-### Start:
+### Start, stop, log:
 ```
 sudo docker-compose up -d
-```
-### Stop:
-```
 sudo docker-compose down -v
-```
-### Log:
-```
 sudo docker-compose logs traefik
 sudo docker logs -tf --tail="50" traefik
 ```
