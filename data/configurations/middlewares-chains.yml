@@ -4,18 +4,18 @@ http:
       chain:
         middlewares:
           - rate-limit
-          - secure-headers
+          - secureHeaders
 
     chain-basic-auth:
       chain:
         middlewares:
           - rate-limit
           - secure-headers
-          - basic-auth
+          - user-auth
 
 #    chain-oauth:
 #      chain:
 #        middlewares:
-#          - middlewares-rate-limit
-#          - middlewares-secure-headers
-#          - middlewares-oauth
+#          - rate-limit
+#          - secure-headers
+#          - oauth
