@@ -19,10 +19,3 @@ http:
 #          - middlewares-rate-limit
 #          - middlewares-secure-headers
 #          - middlewares-oauth
-        
-#    chain-authelia:
-#      chain:
-#        middlewares:
-#          - middlewares-rate-limit
-#          - middlewares-secure-headers
-#          - middlewares-authelia
