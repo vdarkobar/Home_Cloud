@@ -18,7 +18,7 @@
   <br><br>
 </p>
   
-### CloudFlare prep:  
+### CloudFlare:  
 
 Point your root domain (example.com) to your WAN IP using an A record.  
 ```
@@ -69,7 +69,7 @@ Firewall Settings:
 
 ---
 
-### Server prep:  
+### Server:  
 
 ```
 sudo apt update
@@ -147,7 +147,7 @@ DOCKER_OPTS="--iptables=false"
 ```
 --- 
 
-#### Folder/File structure example:  
+#### Folder/File structure:  
 
 <pre>
 traefik2
@@ -167,7 +167,7 @@ traefik2
 └── traefik.log
 </pre>
 
-### Clone this git repository and give it a name:
+### Clone this git repository:
 ```
 echo -n "Enter directory name: "; read NAME; mkdir -p "$NAME"; cd "$NAME" \
 && git clone https://vdarkobar:2211620c9da5dab0c7bb77e9aeb02087d293b293@github.com/vdarkobar/Traefik2.git .
@@ -198,7 +198,6 @@ DOMAINNAME=
 PUID=
 PGID=
 PORTAINER_PORT=
-# ...
 ```
 ### Start, stop, log:
 ```
