@@ -20,17 +20,17 @@
   
 ### CloudFlare prep:  
 
-Point your root domain (example.com) to your WAN IP using an A record. <a href="https://raw.githubusercontent.com/vdarkobar/misc/main/cloudflare-dns-entries-740x226.webp?token=AEM4227Q22C64DXH6GWNBB2753T5G">Example</a>
+Point your root domain (example.com) to your WAN IP using an A record.  
 ```
     A | example.com | YOUR WAN IP
 ```
   
-Add either a wildcard CNAME (*.example.com) or individual subdomains, all pointing to your root domain (@ for the host). <a href="https://raw.githubusercontent.com/vdarkobar/misc/main/cloudflare-dns-records-for-traefik-2-740x290.webp?token=AEM422YGEAR7WLUM2D7RZ5K753UIQ">Example</a>
+Add either a wildcard CNAME (*.example.com) or individual subdomains, all pointing to your root domain (@ for the host).  
 ```
     CNAME | * | @ (or example.com)
 ```
 
-For Non-WWW to WWW redirect. <a href="https://raw.githubusercontent.com/vdarkobar/misc/main/cloudflare-full-ssl-for-traefik-docker-setup.webp?token=AEM422Z44XUVFEMEMPMH4JS753UQ4">Example</a>
+For Non-WWW to WWW redirect.  
 ```
     A | www | YOUR WAN IP
 ```
@@ -43,7 +43,7 @@ DNS Settings:
    
 wait for a few minutes for the DNS entries to propagate. 
   
-Firewall rules: <a href="https://raw.githubusercontent.com/vdarkobar/misc/main/cloudflare-firewall-rules-740x335.webp?token=AEM4226SMCEKVK5UZ664ERS753UYS">Example</a>
+Firewall rules:  
   
 ![alt text](https://github.com/vdarkobar/misc/blob/main/cloudflare-firewall-rules-740x335.webp "Firewall rules")  
   
@@ -189,9 +189,20 @@ sudo chown -R root:root secrets/
 sudo nano secrets/cloudflare_email.secret
 sudo nano secrets/cloudflare_api_key.secret
 ```
-### Edit:
+### Set environment variables:
 ```
 sudo nano .env
+```
+```
+# Add values:
+TRAEFIK_PILOT_TOKEN=
+TZ=
+MY_EMAIL=
+DOMAINNAME=
+PUID=
+PGID=
+PORTAINER_PORT=
+# ...
 ```
 ### Start:
 ```
