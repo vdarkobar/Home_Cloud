@@ -40,7 +40,10 @@ For Non-WWW to WWW redirect.
 ```
     A | www | YOUR WAN IP
 ```
-
+<p align="center">
+  <img src="https://github.com/vdarkobar/misc/blob/main/www.webp">
+</p>
+  
 DNS Settings (*wait for a few minutes for the DNS entries to propagate*):  
   
 ![alt text](https://github.com/vdarkobar/misc/blob/main/cloudflare-dns-entries-740x226.webp "DNS Management for a domain")  
