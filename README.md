@@ -25,7 +25,7 @@ Point your root domain (example.com) to your WAN IP using an A record.
     A | example.com | YOUR WAN IP
 ```
 <p align="center">
-  <a href="https://github.com/vdarkobar/misc/blob/main/A%20record.webp"> </a>  
+  <a href="https://github.com/vdarkobar/misc/blob/main/A%20record.webp"> dsas</a>  
 </p>
     
 Add either a wildcard CNAME (*.example.com) or individual subdomains, all pointing to your root domain (@ for the host).  
