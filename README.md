@@ -44,15 +44,7 @@ For Non-WWW to WWW redirect.
   <img src="https://github.com/vdarkobar/misc/blob/main/www.webp">
 </p>
   
-DNS Settings (*wait for a few minutes for the DNS entries to propagate*):  
-  
-![alt text](https://github.com/vdarkobar/misc/blob/main/cloudflare-dns-entries-740x226.webp "DNS Management for a domain")  
-![alt text](https://github.com/vdarkobar/misc/blob/main/cloudflare-dns-records-for-traefik-2-740x290.webp "DNS Management for a domain")  
-![alt text](https://github.com/vdarkobar/misc/blob/main/cloudflare-full-ssl-for-traefik-docker-setup.webp "DNS Management for a domain")  
-  
-Firewall rules:  
-  
-![alt text](https://github.com/vdarkobar/misc/blob/main/cloudflare-firewall-rules-740x335.webp "Firewall rules")  
+*Wait for a few minutes for the DNS entries to propagate, edit firewall rules.*  
   
 #### Site settings:  
 
