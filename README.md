@@ -72,7 +72,7 @@ Firewall Settings:
 </p>
   
 ---
-### *>> Enable port forwarding (80, 443) on your router, or gateway, to your Traefik instance (VM).*
+#### *>> Enable port forwarding (80, 443) on your router, or gateway, to your Traefik instance (VM).*
 --- 
 
 ### Server:  
