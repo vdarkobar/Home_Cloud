@@ -1,0 +1,52 @@
+http:
+
+  # All Routers
+  routers:
+
+    # Example2 - main router
+    example2:
+      service: example2-service
+      middlewares:
+        - www-redirect2@file
+      entryPoints:
+        - "websecure"
+      rule: "Host(`domain2`) || Host(`www.domain2`)"
+
+    # Bitwarden Websocker router
+    bitwarden-ws:
+      service: bitwarden-websocket
+      middlewares:
+        - bw-stripPrefix@file
+      entryPoints:
+        - "websecure"
+      rule: "Host(`bw.domain2`) && Path(`/notifications/hub`)"
+
+    # Bitwarden router
+    bitwarden-ws:
+      service: bitwarden-service
+      middlewares:
+      entryPoints:
+        - "websecure"
+      rule: "Host(`bw.domain2`)"
+
+
+  # All Services
+  services:
+
+    # Example2 - main service
+    example2-service:
+      loadBalancer:
+        servers:
+          - url: "http://local-ip:port"
+
+    # Bitwarden Websocker service
+    bitwarden-websocket:
+      loadBalancer:
+        servers:
+          - url: "http://local-ip:3012"
+
+    # Bitwarden service
+    bitwarden-service:
+      loadBalancer:
+        servers:
+          - url: "http://local-ip:port"
