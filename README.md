@@ -20,7 +20,7 @@
   
 ### CloudFlare prep:  
 
-Point your root domain (example.com) to your WAN IP using an A record. <a href="https://github.com/vdarkobar/misc/blob/main/cloudflare-dns-entries-740x226.webp">Example</a>
+Point your root domain (example.com) to your WAN IP using an A record. <a href="https://raw.githubusercontent.com/vdarkobar/misc/main/cloudflare-dns-entries-740x226.webp?token=AEM4227Q22C64DXH6GWNBB2753T5G">Example</a>
 ```
     A | example.com | YOUR WAN IP
 ```
