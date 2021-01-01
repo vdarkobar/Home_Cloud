@@ -1,0 +1,15 @@
+http:
+  routers:
+    nginx:
+      service: example1
+      middlewares:
+        - www-redirect1@file
+      entryPoints:
+        - "websecure"
+      rule: "Host(`domain1`) || Host(`www.domain1`)"
+
+  services:
+    example1:
+      loadBalancer:
+        servers:
+          - url: "http://local-ip:port"
