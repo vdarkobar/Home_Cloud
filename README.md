@@ -46,8 +46,6 @@ Add for non-WWW to WWW redirect.
   
 <p align="center">
 Wait for a few minutes for the DNS entries to propagate. Optionally, edit CloudFlare Firewall rules.
-In order to see if Let’s Encrypt is working pause CloudFlare on selected website before running docker-compose.
-(Advanced Actions > Pause Cloudflare on Site)
 </p>
   
 #### Site settings:  
