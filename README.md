@@ -123,10 +123,11 @@ sudo docker-compose --version
 ```
 sudo docker network create traefik
 ```
-#### *option: custom Docker networks (specify the gateway and subnet to use):*
+*option: custom Docker networks (specify the gateway and subnet to use):*
 ```
 sudo docker network create --gateway 192.168.90.1 --subnet 192.168.90.0/24 traefik  
 ```
+*option: set static ip to your service(s)
 ```
 # Option: Specify static IP for service
     networks:
@@ -150,7 +151,7 @@ DOCKER_OPTS="--iptables=false"
 
 --- 
 
-### Folder/File structure example:  
+#### Folder/File structure example:  
 
 <pre>
 traefik2
