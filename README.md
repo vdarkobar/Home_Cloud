@@ -76,7 +76,7 @@ Firewall Settings:
 --- 
 
 ### Server:  
-
+  
 ```
 sudo apt update
 sudo apt-get install -y \
@@ -84,9 +84,9 @@ sudo apt-get install -y \
   ca-certificates \
   curl \
   wget \
-  acl \
-  tree \
-  dnsutils \
+  <!---acl \--->
+  <!---tree \--->
+  <!---dnsutils \--->
   gnupg-agent \
   apache2-utils \
   software-properties-common
@@ -209,7 +209,7 @@ sudo docker-compose down -v
 sudo docker-compose logs traefik
 sudo docker logs -tf --tail="50" traefik
 ```
-<!---  
+<!---
 <p align="center">
   <b>Resources:</b><br>
   <a href="https://www.smarthomebeginner.com/traefik-2-docker-tutorial/">Link 1</a> |
