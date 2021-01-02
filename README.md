@@ -84,13 +84,13 @@ sudo apt-get install -y \
   ca-certificates \
   curl \
   wget \
-  <!---acl \--->
-  <!---tree \--->
-  <!---dnsutils \--->
   gnupg-agent \
   apache2-utils \
   software-properties-common
   ```
+  <!--- acl \--->
+  <!--- tree \--->
+  <!--- dnsutils \--->
 --- 
   
 ### Docker:  
