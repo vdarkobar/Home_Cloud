@@ -180,22 +180,22 @@ echo -n "Enter directory name: "; read NAME; mkdir -p "$NAME"; cd "$NAME" \
 sudo chmod 600 data/acme.json
 sudo chown -R root:root secrets/
 ```
-### Copy <a href="https://dash.cloudflare.com/profile/api-tokens">CloudFlare Global API Key</a> and edit the files:
-```
-sudo nano secrets/cloudflare_email.secret
-sudo nano secrets/cloudflare_api_key.secret
-```
+  
+### Copy <a href="https://dash.cloudflare.com/profile/api-tokens">CloudFlare Global API Key</a> to memory (*clipboard*):
+  
 ### Run all at once. *Enter required data*:
 ```
 echo -n "Enter Traefik username: "; read UNAME; \
 echo -n "Enter Traefik password: "; read PASS; \
 echo -n "Enter CloudFlare email: "; read CFEMAIL; \
+echo -n "Paste CloudFlare API Key: "; read CFAPI; \
 echo -n "Enter Time Zone: "; read TZONE; \
 echo -n "Enter Let's Encrypt Email: "; read LEEMAIL; \
 echo -n "Enter Domain Name: "; read DNAME; \
 echo -n "Enter Portainer Port: "; read PP; \
 echo $(htpasswd -nb "$UNAME" "$PASS") > ~/shared/.htpasswd && \
 echo ${CFEMAIL} > secrets/cloudflare_email.secret && \
+echo ${CFAPI} > secrets/cloudflare_api_key.secret && \
 sed -i "s|01|${TZONE}|" .env && \
 sed -i "s|02|${LEEMAIL}|" .env && \
 sed -i "s|03|${DNAME}|" .env && \
@@ -204,6 +204,7 @@ sed -i "s|04|${PP}|" .env
 ### Start, stop, log:
 ```
 sudo docker-compose up -d
+#
 sudo docker-compose down -v
 sudo docker-compose logs traefik
 sudo docker logs -tf --tail="50" traefik
