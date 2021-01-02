@@ -38,7 +38,7 @@ services:
       - --log=true
       - --log.level=DEBUG
 
-      - --pilot.token=$TRAEFIK_PILOT_TOKEN
+#      - --pilot.token=$TRAEFIK_PILOT_TOKEN
 
       - --accessLog=true
       - --accessLog.filePath=/traefik.log
