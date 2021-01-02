@@ -176,15 +176,6 @@ traefik2
 ```
 echo -n "Enter directory name: "; read NAME; mkdir -p "$NAME"; cd "$NAME" && git clone https://github.com/vdarkobar/Traefik2.git .
 ```
-<!-- This is commented out. 
-...
--->
-### Set permissions:
-```
-sudo chmod 600 data/acme.json
-sudo chown -R root:root secrets/
-sudo chmod 600 secrets/
-```
   
 ### Copy <a href="https://dash.cloudflare.com/profile/api-tokens">CloudFlare Global API Key</a> to memory (*clipboard*):
   
@@ -206,6 +197,9 @@ sed -i "s|01|${TZONE}|" .env && \
 sed -i "s|02|${LEEMAIL}|" .env && \
 sed -i "s|03|${DNAME}|" .env && \
 sed -i "s|04|${PP}|" .env && \
+sudo chmod 600 data/acme.json && \
+sudo chown -R root:root secrets/ && \
+sudo chmod -R 600 secrets/ && \
 sudo docker-compose up -d
 ```
 ### Log:
