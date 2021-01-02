@@ -180,7 +180,7 @@ mkdir -p "$DIR"; cd "$DIR" && git clone https://github.com/vdarkobar/Traefik2.gi
   
 ### Copy <a href="https://dash.cloudflare.com/profile/api-tokens">CloudFlare Global API Key</a> to memory (*clipboard*):
   
-### Run all at once. *Enter required data*:
+### Run all at once. Enter required data:
 ```
 RED='\033[0;31m'
 echo -ne "${RED}Enter Traefik username: "; read UNAME; \
