@@ -185,19 +185,21 @@ sudo chown -R root:root secrets/
 sudo nano secrets/cloudflare_email.secret
 sudo nano secrets/cloudflare_api_key.secret
 ```
-### Set environment variables:
+### run all at oncee, enter required data:
 ```
-sudo nano .env
-```
-```
-# Add values:
-TRAEFIK_PILOT_TOKEN=
-TZ=
-MY_EMAIL=
-DOMAINNAME=
-PUID=
-PGID=
-PORTAINER_PORT=
+echo -n "Enter Traefik username: "; read UNAME; \
+echo -n "Enter Traefik password: "; read PASS; \
+echo -n "Enter CloudFlare email: "; read CFEMAIL; \
+echo -n "Enter Time Zone: "; read TZONE; \
+echo -n "Enter Let's Encrypt Email: "; read LEEMAIL; \
+echo -n "Enter Domain Name: "; read DNAME; \
+echo -n "Enter Portainer Port: "; read PP; \
+echo $(htpasswd -nb "$UNAME" "$PASS") > ~/shared/.htpasswd && \
+echo ${CFEMAIL} > secrets/cloudflare_email.secret && \
+sed -i "s|01|${TZONE}|" .env && \
+sed -i "s|02|${LEEMAIL}|" .env && \
+sed -i "s|03|${DNAME}|" .env && \
+sed -i "s|04|${PP}|" .env
 ```
 ### Start, stop, log:
 ```
