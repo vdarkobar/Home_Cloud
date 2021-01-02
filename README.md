@@ -120,6 +120,7 @@ sudo docker network create --gateway 192.168.90.1 --subnet 192.168.90.0/24 traef
 ```
 *option: set static ip to your service(s).*
 ```
+# ...
     networks:
       traefik:
         ipv4_address: 192.168.90.254
