@@ -225,4 +225,3 @@ sudo docker logs -tf --tail="50" traefik
   <br><br>
 </p>
 --->
-<button onclick="myFunction()">Copy text</button>
