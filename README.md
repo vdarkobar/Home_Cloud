@@ -110,11 +110,11 @@ sudo apt update && sudo apt install -y docker-ce docker-ce-cli containerd.io
 sudo docker -v
 sudo docker ps -a
 ```
-<!--- Commented out
 #### Create necessary Docker networks:  
 ```
 sudo docker network create traefik
 ```
+<!--- Commented out
 *option: custom Docker networks (specify the gateway and subnet to use).*
 ```
 sudo docker network create --gateway 192.168.90.1 --subnet 192.168.90.0/24 traefik  
