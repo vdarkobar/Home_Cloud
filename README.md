@@ -185,7 +185,7 @@ sudo chown -R root:root secrets/
 sudo nano secrets/cloudflare_email.secret
 sudo nano secrets/cloudflare_api_key.secret
 ```
-### run all at oncee, enter required data:
+### Run all at once. *Enter required data*:
 ```
 echo -n "Enter Traefik username: "; read UNAME; \
 echo -n "Enter Traefik password: "; read PASS; \
