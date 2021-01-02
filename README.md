@@ -165,9 +165,10 @@ traefik2
 │   └── cloudflare_email.secret
 ├── shared
 │   └── .htpasswd
+├── tmp
 ├── docker-compose.yml
 ├── .env
-├── tmp
+├── access.log
 └── traefik.log
 </pre>
 
