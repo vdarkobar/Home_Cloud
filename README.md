@@ -202,18 +202,15 @@ echo ${CFAPI} > secrets/cloudflare_api_key.secret && \
 sed -i "s|01|${TZONE}|" .env && \
 sed -i "s|02|${LEEMAIL}|" .env && \
 sed -i "s|03|${DNAME}|" .env && \
-sed -i "s|04|${PP}|" .env
-```
-### Start, stop, log:
-```
+sed -i "s|04|${PP}|" .env && \
 sudo docker-compose up -d
-#
-sudo docker-compose down -v
-#
+```
+### Log:
+```
 sudo docker-compose logs traefik
 sudo docker logs -tf --tail="50" traefik
 ```
-<!---
+<!--- Commented out
 <p align="center">
   <b>Resources:</b><br>
   <a href="https://www.smarthomebeginner.com/traefik-2-docker-tutorial/">Link 1</a> |
