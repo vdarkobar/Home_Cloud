@@ -38,7 +38,7 @@ Add individual subdomains, all pointing to your root domain (@ for the host).
   
 Add for non-WWW to WWW redirect.  
 ```
-    A | www | YOUR WAN IP
+    CNAME | www | YOUR WAN IP
 ```
 <p align="center">
   <img src="https://github.com/vdarkobar/misc/blob/main/www.webp">
