@@ -209,7 +209,7 @@ sudo docker-compose down -v
 sudo docker-compose logs traefik
 sudo docker logs -tf --tail="50" traefik
 ```
-  
+<!---  
 <p align="center">
   <b>Resources:</b><br>
   <a href="https://www.smarthomebeginner.com/traefik-2-docker-tutorial/">Link 1</a> |
@@ -220,3 +220,4 @@ sudo docker logs -tf --tail="50" traefik
   <a href="https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet">Link 6</a>
   <br><br>
 </p>
+--->
