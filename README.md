@@ -75,7 +75,8 @@ Firewall Settings:
 ---
 #### *>> Enable port forwarding (80, 443) from your Router, or Gateway, to your Traefik instance (VM).*
 --- 
-
+  
+<!---
 ### Server:  
   
 ```
@@ -89,9 +90,7 @@ sudo apt-get install -y \
   apache2-utils \
   software-properties-common
   ```
-  <!--- acl \--->
-  <!--- tree \--->
-  <!--- dnsutils \--->
+--->
 --- 
   
 ### Docker:  
