@@ -174,7 +174,7 @@ traefik2
 
 ### Clone this git repository:
 ```
-echo -n "Enter directory name: "; read NAME; mkdir -p "$NAME"; cd "$NAME" && git clone https://github.com/vdarkobar/Traefik2.git .
+RED='\033[0;31m'; echo -ne "${RED}Enter directory name: "; read DIR; mkdir -p "$DIR"; cd "$DIR" && git clone https://github.com/vdarkobar/Traefik2.git .
 ```
   
 ### Copy <a href="https://dash.cloudflare.com/profile/api-tokens">CloudFlare Global API Key</a> to memory (*clipboard*):
@@ -197,6 +197,7 @@ sed -i "s|01|${TZONE}|" .env && \
 sed -i "s|02|${LEEMAIL}|" .env && \
 sed -i "s|03|${DNAME}|" .env && \
 sed -i "s|04|${PP}|" .env && \
+rm README.md && \
 sudo chmod 600 data/acme.json && \
 sudo chown -R root:root secrets/ && \
 sudo chmod -R 600 secrets/ && \
