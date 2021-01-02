@@ -1,3 +1,4 @@
+# Copy file to: Traefik2/data/configurations/, adjust to match your needs
 http:
 
   # All Routers
