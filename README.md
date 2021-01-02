@@ -79,7 +79,7 @@ Firewall Settings:
 ### Server:  
   
 ```
-sudo apt update
+sudo apt update && \
 sudo apt-get install -y \
   apt-transport-https \
   ca-certificates \
