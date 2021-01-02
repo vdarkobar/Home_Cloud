@@ -16,12 +16,10 @@ http:
           - "/notifications/hub"
         forceSlash: false
 
-    # UserName : darko
-    # Password : XRilWJNHd1JlhYV2u916@2L4^Yi0h8Y%zzQ9y3l0^1aiiTHaUK
     user-auth:
       basicAuth:
 #        users:
-#          - "darko:$2y$10$bFMIxoovjpWmk.2bBNuIeuUf9MrfKEbMt1Cq0Wp5J3i.fnpUOU7Pa"
+#          - "username:encrypted-password"
         usersFile: "/shared/.htpasswd" # Mount the volume through docker-compose.yml
         realm: "Traefik 2 Basic Auth"
 
