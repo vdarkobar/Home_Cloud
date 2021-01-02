@@ -29,13 +29,13 @@ http:
         average: 100
         burst: 50
 
-    # WWW - Redirect - 1
+    # WWW - Redirect1
 #    www-redirect1:
 #      redirectRegex:
 #        regex: "^https://domain1/(.*)"
 #        replacement: "https://www.domain1/${1}"
 
-    # WWW - Redirect - 2
+    # WWW - Redirect2
 #    www-redirect2:
 #      redirectRegex:
 #        regex: "^https://domain2/(.*)"
