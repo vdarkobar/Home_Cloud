@@ -206,6 +206,7 @@ sed -i "s|04|${PP}|" .env
 sudo docker-compose up -d
 #
 sudo docker-compose down -v
+#
 sudo docker-compose logs traefik
 sudo docker logs -tf --tail="50" traefik
 ```
