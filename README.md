@@ -190,14 +190,15 @@ sudo chmod 600 secrets/
   
 ### Run all at once. *Enter required data*:
 ```
-echo -n "Enter Traefik username: "; read UNAME; \
-echo -n "Enter Traefik password: "; read PASS; \
-echo -n "Enter CloudFlare email: "; read CFEMAIL; \
-echo -n "Paste CloudFlare API Key: "; read CFAPI; \
-echo -n "Enter Time Zone: "; read TZONE; \
-echo -n "Enter Let's Encrypt Email: "; read LEEMAIL; \
-echo -n "Enter Domain Name: "; read DNAME; \
-echo -n "Enter Portainer Port: "; read PP; \
+RED='\033[0;31m'
+echo -ne "${RED}Enter Traefik username: "; read UNAME; \
+echo -ne "${RED}Enter Traefik password: "; read PASS; \
+echo -ne "${RED}Enter CloudFlare email: "; read CFEMAIL; \
+echo -ne "${RED}Paste CloudFlare API Key: "; read CFAPI; \
+echo -ne "${RED}Enter Time Zone: "; read TZONE; \
+echo -ne "${RED}Enter Let's Encrypt Email: "; read LEEMAIL; \
+echo -ne "${RED}Enter Domain Name: "; read DNAME; \
+echo -ne "${RED}Enter Portainer Port: "; read PP; \
 echo $(htpasswd -nbB "$UNAME" "$PASS") > ~/shared/.htpasswd && \
 echo ${CFEMAIL} > secrets/cloudflare_email.secret && \
 echo ${CFAPI} > secrets/cloudflare_api_key.secret && \
