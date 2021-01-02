@@ -19,7 +19,7 @@
 </p>
   
 ### CloudFlare:  
-
+  
 Point your root domain (example.com) to your WAN IP using an A record.  
 ```
     A | example.com | YOUR WAN IP
@@ -94,8 +94,8 @@ sudo apt-get install -y \
 --- 
   
 ### Docker:  
-*(swich from fish to bash if command not working)*  
-
+*swich shell (bash) if command not working*  
+  
 ```
 curl -fsSL https://download.docker.com/linux/debian/gpg | sudo apt-key add -
 ```
@@ -110,16 +110,7 @@ sudo apt update && sudo apt install -y docker-ce docker-ce-cli containerd.io
 sudo docker -v
 sudo docker ps -a
 ```
-  
-### Docker Compose:  
-[Check the current Docker Compose release here](https://github.com/docker/compose/releases), update '/1.27.4/' in the command:
-```
-sudo curl -L https://github.com/docker/compose/releases/download/1.27.4/docker-compose-`uname -s`-`uname -m` -o /usr/local/bin/docker-compose  
-sudo chmod +x /usr/local/bin/docker-compose
-sudo docker-compose --version
-```
-  
-### Create necessary Docker networks:  
+#### Create necessary Docker networks:  
 ```
 sudo docker network create traefik
 ```
@@ -133,8 +124,7 @@ sudo docker network create --gateway 192.168.90.1 --subnet 192.168.90.0/24 traef
       traefik:
         ipv4_address: 192.168.90.254
 ```
-
-### Securing Docker:  
+#### Securing Docker:  
 
 <p align="center">
 <b>Do no add user to docker group (sudo usermod -aG docker $USER && logout).</b><br>
@@ -144,6 +134,15 @@ sudo docker network create --gateway 192.168.90.1 --subnet 192.168.90.0/24 traef
 
 ```
 DOCKER_OPTS="--iptables=false"  
+```
+  
+### Docker Compose:  
+  
+[Check the current Docker Compose release here](https://github.com/docker/compose/releases), update '/1.27.4/' in the command:
+```
+sudo curl -L https://github.com/docker/compose/releases/download/1.27.4/docker-compose-`uname -s`-`uname -m` -o /usr/local/bin/docker-compose  
+sudo chmod +x /usr/local/bin/docker-compose
+sudo docker-compose --version
 ```
 --- 
 
