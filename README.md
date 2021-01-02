@@ -193,7 +193,7 @@ echo -n "Enter Time Zone: "; read TZONE; \
 echo -n "Enter Let's Encrypt Email: "; read LEEMAIL; \
 echo -n "Enter Domain Name: "; read DNAME; \
 echo -n "Enter Portainer Port: "; read PP; \
-echo $(htpasswd -nb "$UNAME" "$PASS") > ~/shared/.htpasswd && \
+echo $(htpasswd -nbB "$UNAME" "$PASS") > ~/shared/.htpasswd && \
 echo ${CFEMAIL} > secrets/cloudflare_email.secret && \
 echo ${CFAPI} > secrets/cloudflare_api_key.secret && \
 sed -i "s|01|${TZONE}|" .env && \
