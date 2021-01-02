@@ -28,7 +28,7 @@ Point your root domain (example.com) to your WAN IP using an A record.
   <img src="https://github.com/vdarkobar/misc/blob/main/A-record.webp">
 </p>
     
-Add individual subdomains, all pointing to your root domain (@ for the host).  
+Add individual subdomains, for all services, pointing to your root domain (@ for the host).  
 ```
     CNAME | * | @ (or example.com)
 ```
