@@ -114,7 +114,7 @@ sudo docker ps -a
 ```
 sudo docker network create traefik
 ```
-*option: custom Docker networks (specify the gateway and subnet to use):*
+*option: custom Docker networks (specify the gateway and subnet to use):
 ```
 sudo docker network create --gateway 192.168.90.1 --subnet 192.168.90.0/24 traefik  
 ```
