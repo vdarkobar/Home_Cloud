@@ -181,6 +181,7 @@ echo -n "Enter directory name: "; read NAME; mkdir -p "$NAME"; cd "$NAME" && git
 ```
 sudo chmod 600 data/acme.json
 sudo chown -R root:root secrets/
+sudo chmod 600 secrets/
 ```
   
 ### Copy <a href="https://dash.cloudflare.com/profile/api-tokens">CloudFlare Global API Key</a> to memory (*clipboard*):
