@@ -154,6 +154,7 @@ traefik2
 ├── data
 │   ├── acme.json
 │   └── configurations
+│       ├── middlewares-chains.yml
 │       ├── middlewares.yml
 │       └── tls.yml
 ├── secrets
