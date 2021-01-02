@@ -174,7 +174,8 @@ traefik2
 
 ### Clone this git repository:
 ```
-RED='\033[0;31m'; echo -ne "${RED}Enter directory name: "; read DIR; mkdir -p "$DIR"; cd "$DIR" && git clone https://github.com/vdarkobar/Traefik2.git .
+RED='\033[0;31m'; echo -ne "${RED}Enter directory name: "; read DIR; \
+mkdir -p "$DIR"; cd "$DIR" && git clone https://github.com/vdarkobar/Traefik2.git .
 ```
   
 ### Copy <a href="https://dash.cloudflare.com/profile/api-tokens">CloudFlare Global API Key</a> to memory (*clipboard*):
