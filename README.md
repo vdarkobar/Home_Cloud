@@ -27,7 +27,7 @@ Point your root domain (example.com) to your WAN IP using an A record.
 <p align="center">
   <img src="https://github.com/vdarkobar/misc/blob/main/A-record.webp">
 </p>
-    
+  
 Add individual subdomains, for all services, pointing to your root domain (@ for the host).  
 ```
     CNAME | * | @ (or example.com)
@@ -35,7 +35,7 @@ Add individual subdomains, for all services, pointing to your root domain (@ for
 <p align="center">
   <img src="https://github.com/vdarkobar/misc/blob/main/sub-domain.webp">
 </p>
-   <!--- Commented out
+  
 Add for non-WWW to WWW redirect.  
 ```
     CNAME | www | YOUR WAN IP
@@ -43,7 +43,6 @@ Add for non-WWW to WWW redirect.
 <p align="center">
   <img src="https://github.com/vdarkobar/misc/blob/main/www.webp">
 </p>
---->
   
 #### Site settings:  
 
