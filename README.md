@@ -1,6 +1,6 @@
 # ProxMox
 <p align="left">
-  <a href="https://github.com/vdarkobar/Server/blob/main/Bastion">Bastion</a> |
+  <a href="https://github.com/vdarkobar/Bastion">Bastion</a> |
   <a href="https://github.com/vdarkobar/Ansible">Ansible</a>  
 </p>
 <p align="center">
