@@ -1,6 +1,5 @@
 # Server
 <p align="center">
-  <b></b><br>
   <a href="https://github.com/vdarkobar/NextCloud">NextCloud</a> |
   <a href="https://github.com/vdarkobar/Bitwarden">Bitwarden</a>  
   <br><br>
