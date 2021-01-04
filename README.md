@@ -1,7 +1,7 @@
 # Server
 <p align="center">
   <a href="https://github.com/vdarkobar/Server/blob/main/Bastion">Bastion Server</a> |
-  <a href="https://github.com/vdarkobar/Bitwarden">Debian Template</a>  
+  <a href="https://github.com/vdarkobar/Server/blob/main/Debian%20Template">Debian Template</a>  
   <br><br>
 </p>
   
