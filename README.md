@@ -14,8 +14,7 @@
   
 <p align="center">
   <img src="https://github.com/vdarkobar/misc/blob/main/reverse-proxy.png">
-  <img src="https://github.com/vdarkobar/misc/blob/main/infrastructure.webp">
-  <img src="https://github.com/vdarkobar/shared/blob/main/bastion.webp">
+ <img src="https://github.com/vdarkobar/misc/blob/main/infrastructure.webp"><img src="https://github.com/vdarkobar/shared/blob/main/bastion.webp">
   <br><br>
 </p>
   
