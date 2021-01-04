@@ -139,9 +139,9 @@ sudo docker network create --gateway 192.168.90.1 --subnet 192.168.90.0/24 traef
 #### Securing Docker:  
 
 <p align="center">
-<b>Do no add user to docker group (sudo usermod -aG docker $USER && logout).</b><br>
-<b>Do not mess with the ownership of Docker Socket (/var/run/docker.sock in Linux)</b><br>
-<b>Change DOCKER_OPTS to Respect IP Table Firewall. Edit /etc/default/docker and add the following line:</b><br>
+  <b>Do no add user to docker group (sudo usermod -aG docker $USER && logout).</b><br>
+  <b>Do not mess with the ownership of Docker Socket (/var/run/docker.sock in Linux)</b><br>
+  <b>Change DOCKER_OPTS to Respect IP Table Firewall. Edit /etc/default/docker and add the following line:</b><br>
 </p>
 
 ```
@@ -185,6 +185,10 @@ traefik2
 RED='\033[0;31m'; echo -ne "${RED}Enter directory name: "; read DIR; \
 mkdir -p "$DIR"; cd "$DIR" && git clone https://github.com/vdarkobar/Traefik2.git .
 ```
+
+<p align="center">
+  <b> PREPARE: Traefik username and password, CloudFlare email and API Key, Time Zone, Let's Encrypt Email, Subdomain for Traefik, Domain Name and Portainer Port. </b><br>
+</p>  
   
 ### Copy <a href="https://dash.cloudflare.com/profile/api-tokens">CloudFlare Global API Key</a> to memory (*clipboard*):
   
