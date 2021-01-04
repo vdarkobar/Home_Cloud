@@ -1,5 +1,5 @@
 <p align="center">
-  <b>Home Lab, centered arround Traefik Proxy: The Cloud Native Application Proxy, using <a href="https://www.proxmox.com/de/proxmox-ve">Proxmox</a>, Debian and Docker.</b><br>
+  <b>Home Lab, centered arround Traefik Proxy: The Cloud Native Application Proxy, using <a href="https://www.proxmox.com/de/proxmox-ve">Proxmox</a>, <a href="https://www.debian.org/index.html">Debian</a> and <a href="https://www.docker.com/">Docker</a>.</b><br>
 </p>  
 
 # ProxMox
