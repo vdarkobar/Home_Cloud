@@ -1,9 +1,8 @@
-# ProxMox
-</p>
 <p align="center">
-  <b>Home Lab, centered arround Traefik Proxy: The Cloud Native Application Proxy</b><br>
-  <b>using Proxmox and Debian</b><br>
+  <b>Home Lab, centered arround Traefik Proxy: The Cloud Native Application Proxy, using Proxmox and Debian.</b><br>
 </p> 
+# ProxMox
+
 <p align="left">
   <a href="https://github.com/vdarkobar/Bastion">Bastion</a> |
   <a href="https://github.com/vdarkobar/Ansible">Ansible</a>  
