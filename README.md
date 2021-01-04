@@ -186,11 +186,11 @@ RED='\033[0;31m'; echo -ne "${RED}Enter directory name: "; read DIR; \
 mkdir -p "$DIR"; cd "$DIR" && git clone https://github.com/vdarkobar/Traefik2.git .
 ```
   
-####                          *PREPARE*:
-<p align="center">
-  <b> Traefik username and password, CloudFlare email and API Key, Time Zone, </b><br>
-  <b> Let's Encrypt Email, Subdomain for Traefik, Domain Name and Portainer Port. </b><br>
-</p>  
+#### *PREPARE*:
+```
+Traefik username and password, CloudFlare email and API Key, Time Zone,
+Let's Encrypt Email, Subdomain for Traefik, Domain Name and Portainer Port.
+```
   
 
 ### Copy <a href="https://dash.cloudflare.com/profile/api-tokens">CloudFlare Global API Key</a> to memory (*clipboard*):
