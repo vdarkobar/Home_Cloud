@@ -192,7 +192,9 @@ mkdir -p "$DIR"; cd "$DIR" && git clone https://github.com/vdarkobar/Traefik2.gi
 Traefik username and password, 
 CloudFlare email and API Key, 
 Time Zone, 
-Let's Encrypt Email, Domain Name and Subdomain for Traefik,
+Let's Encrypt Email, 
+Domain name, 
+Subdomain for Traefik,
 Portainer Port.
 ```
   
@@ -209,7 +211,7 @@ echo -ne "${RED}Paste CloudFlare API Key: "; read CFAPI; \
 echo -ne "${RED}Enter Time Zone: "; read TZONE; \
 echo -ne "${RED}Enter Let's Encrypt Email: "; read LEEMAIL; \
 echo -ne "${RED}Enter Traefik Subdomain: "; read SUB; \
-echo -ne "${RED}Enter Domain Name: "; read DNAME; \
+echo -ne "${RED}Enter Domain name: "; read DNAME; \
 echo -ne "${RED}Enter Portainer Port: "; read PP; \
 echo $(htpasswd -nbB "$UNAME" "$PASS") > ~/shared/.htpasswd && \
 echo ${CFEMAIL} > secrets/cloudflare_email.secret && \
