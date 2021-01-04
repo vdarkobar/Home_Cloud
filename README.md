@@ -1,7 +1,7 @@
 # Server
 <p align="center">
-  <a href="https://github.com/vdarkobar/NextCloud">Bastion Servr</a> |
-  <a href="https://github.com/vdarkobar/Bitwarden">Proxmox Debian Template</a>  
+  <a href="https://github.com/vdarkobar/NextCloud">Bastion Server</a> |
+  <a href="https://github.com/vdarkobar/Bitwarden">Debian Template</a>  
   <br><br>
 </p>
   
