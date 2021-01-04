@@ -187,7 +187,7 @@ RED='\033[0;31m'; echo -ne "${RED}Enter directory name: "; read DIR; \
 mkdir -p "$DIR"; cd "$DIR" && git clone https://github.com/vdarkobar/Traefik2.git .
 ```
   
-#### *PREPARE*:
+#### *Decide what you will use for*:
 ```
 Traefik username and password, 
 CloudFlare email and API Key, 
