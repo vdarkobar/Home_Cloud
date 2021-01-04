@@ -8,7 +8,7 @@
 </p>
   
 <p align="left">
-  <a href="https://github.com/vdarkobar/Server/blob/main/Debian%20Template">Debian Template</a>  
+  <a href="https://github.com/vdarkobar/Debian">Debian Template</a>  
 </p>
 <p align="center">
   <img src="https://github.com/vdarkobar/misc/blob/main/infrastructure.webp">
