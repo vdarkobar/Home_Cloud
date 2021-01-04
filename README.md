@@ -14,7 +14,7 @@
   <img src="https://github.com/vdarkobar/misc/blob/main/infrastructure.webp">
 </p>
   
-# Traefik2  
+# Traefik  
 <p align="center">
   <img src="https://github.com/vdarkobar/misc/blob/main/reverse-proxy.png">
   <br><br>
