@@ -1,4 +1,4 @@
-# Server
+# ProxMox
 <p align="left">
   <a href="https://github.com/vdarkobar/Server/blob/main/Bastion">Bastion Server</a>  
 </p>
