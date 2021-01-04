@@ -1,7 +1,14 @@
-# Traefik2  
+
 <p align="center">
   <img src="https://github.com/vdarkobar/misc/blob/main/infrastructure.webp">
   <img src="https://github.com/vdarkobar/shared/blob/main/bastion.webp">
+  <br><br>
+</p>
+
+# Traefik2  
+  
+<p align="center">
+  <img src="https://github.com/vdarkobar/misc/blob/main/reverse-proxy.png">
   <br><br>
 </p>
   
@@ -14,11 +21,6 @@
   <a href="https://github.com/vdarkobar/Portainer">Portainer</a> |
   <a href="https://github.com/vdarkobar/Portainer">Joomla</a> |
   <a href="https://github.com/vdarkobar/Portainer">iPerf</a>  
-  <br><br>
-</p>
-  
-<p align="center">
-  <img src="https://github.com/vdarkobar/misc/blob/main/reverse-proxy.png">
   <br><br>
 </p>
   
