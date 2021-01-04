@@ -7,7 +7,7 @@
 </p>
   
 <p align="left">
-  <a href="https://github.com/vdarkobar/Server/blob/main/Bastion">Bastion Server</a> |
+  <a href="https://github.com/vdarkobar/Server/blob/main/Bastion">Bastion Server</a>  
 </p>
 <p align="center">
   <img src="https://github.com/vdarkobar/shared/blob/main/bastion.webp">
