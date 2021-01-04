@@ -36,7 +36,7 @@
   <br><br>
 </p>  
 
-### CloudFlare:  
+### CloudFlare<a href="https://www.cloudflare.com/">CloudFlare</a>:  
   
 Point your root domain (example.com) to your WAN IP using an A record.  
 ```
