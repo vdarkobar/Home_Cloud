@@ -1,5 +1,4 @@
 # Server
-  
 <p align="center">
   <b></b><br>
   <a href="https://github.com/vdarkobar/NextCloud">NextCloud</a> |
@@ -14,7 +13,6 @@
 </p>
 
 # Traefik2  
-  
 <p align="center">
   <img src="https://github.com/vdarkobar/misc/blob/main/reverse-proxy.png">
   <br><br>
