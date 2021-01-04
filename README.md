@@ -189,7 +189,11 @@ mkdir -p "$DIR"; cd "$DIR" && git clone https://github.com/vdarkobar/Traefik2.gi
   
 #### *PREPARE*:
 ```
-Traefik username and password, CloudFlare email and API Key, Time Zone, Let's Encrypt Email, Subdomain for Traefik, Domain Name and Portainer Port.
+Traefik username and password, 
+CloudFlare email and API Key, 
+Time Zone, 
+Let's Encrypt Email, Domain Name and Subdomain for Traefik,
+Portainer Port.
 ```
   
 
