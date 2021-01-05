@@ -16,7 +16,7 @@
 </p>
   
 
-# <a href="https://www.docker.com/">Docker</a>:  
+# <a href="https://github.com/vdarkobar/shared/blob/main/Docker.md">Docker</a>:  
 *swich shell (bash) if command not working*  
   
 ```
