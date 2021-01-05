@@ -1,5 +1,5 @@
 ---  
-<p align="center italic">
+<p align="center" "italic">
 Small Home-Cloud, centered on Traefik Proxy, using Proxmox, Debian and Docker.
 </p>  
 
