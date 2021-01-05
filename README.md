@@ -18,7 +18,7 @@
   
 --- 
   
-# <a href="https://www.cloudflare.com/">CloudFlare</a>  
+# <a href="https://github.com/vdarkobar/Home_Lab/blob/main/README.md#cloudflare">CloudFlare</a>  
   
 Point your root domain (example.com) to your WAN IP using an A record.  
 ```
