@@ -21,7 +21,7 @@ Install and setup
 Setup
 # <a href="https://github.com/vdarkobar/Home_Lab/blob/main/README.md#cloudflare">CloudFlare</a>  
   
-Point your root domain (example.com) to your WAN IP using an A record.  
+Login to <a href="https://www.cloudflare.com/">CloudFlare</a> and point your root domain (example.com) to your WAN IP using an A record.  
 ```
     A | example.com | YOUR WAN IP
 ```
