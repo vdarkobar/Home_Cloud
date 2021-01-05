@@ -1,5 +1,5 @@
 <p align="center">
-  <b>, <a href="https://www.debian.org/index.html">Debian</a>, <a href="https://www.docker.com/">Docker</a>, <a href="https://traefik.io/traefik/">Traefik Proxy</a></b><br>
+  <b>, <a href="https://www.debian.org/index.html">Debian</a>, <a href="https://www.docker.com/">Docker</a>, </b><br>
 </p>  
 
 # <a href="https://www.proxmox.com/de/proxmox-ve">Proxmox</a>
@@ -19,7 +19,7 @@
   <img src="https://github.com/vdarkobar/misc/blob/main/infrastructure.webp">
 </p>
   
-# Traefik  
+# <a href="https://traefik.io/traefik/">Traefik Proxy</a>  
 <p align="center">
   <img src="https://github.com/vdarkobar/misc/blob/main/reverse-proxy.png">
   <br><br>
