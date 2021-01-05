@@ -91,7 +91,7 @@ Firewall Settings:
   <br><br>
 </p>
   
-### Clone this git repository:
+### Clone Traefik git repository:
 ```
 RED='\033[0;31m'; echo -ne "${RED}Enter directory name: "; read DIR; \
 mkdir -p "$DIR"; cd "$DIR" && git clone https://github.com/vdarkobar/Home_Cloud.git .
