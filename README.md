@@ -90,25 +90,8 @@ Firewall Settings:
   <a href="https://github.com/vdarkobar/Portainer">Portainer</a> |
   <a href="https://github.com/vdarkobar/Portainer">Joomla</a> |
   <a href="https://github.com/vdarkobar/Portainer">iPerf</a>  
-  <br><br>
 </p>  
   
-<!--- Commented out
-### Server:  
-  
-```
-sudo apt update && \
-sudo apt-get install -y \
-  apt-transport-https \
-  ca-certificates \
-  curl \
-  wget \
-  gnupg-agent \
-  apache2-utils \
-  software-properties-common
-  ```
-    --->
-
 #### Folder/File structure:  
 
 <pre>
