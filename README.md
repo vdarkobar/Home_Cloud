@@ -75,7 +75,7 @@ Firewall Settings:
 #### *>> Enable port forwarding (80, 443) from your Router, or Gateway, to your Traefik instance (VM).*
 --- 
   
-
+Setup
 # <a href="https://github.com/vdarkobar/Home_Lab#traefik-proxy">Traefik Proxy</a>  
 <p align="center">
   <img src="https://github.com/vdarkobar/misc/blob/main/reverse-proxy.png">
