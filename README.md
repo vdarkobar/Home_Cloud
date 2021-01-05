@@ -4,8 +4,8 @@ Install and setup
 <p align="left">
   Create <a href="https://github.com/vdarkobar/shared/blob/main/Bastion.md#bastion">Bastion</a>, 
  install <a href="https://github.com/vdarkobar/Playbooks#ansible">Ansible</a>. 
- Create <a href="https://github.com/vdarkobar/shared/blob/main/Debian.md#debian">Debian</a> template.
-  Setup <a href="https://github.com/vdarkobar/shared/blob/main/Docker.md#docker">Docker</a>.
+ Create <a href="https://github.com/vdarkobar/shared/blob/main/Debian.md#debian">Debian</a> template and 
+  install <a href="https://github.com/vdarkobar/shared/blob/main/Docker.md#docker">Docker</a>.
 </p>
   
 <p align="center">
