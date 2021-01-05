@@ -3,7 +3,7 @@ Install and setup
   
 <p align="left">
   Create <a href="https://github.com/vdarkobar/shared/blob/main/Bastion.md">Bastion</a>, install 
-  <a href="https://github.com/vdarkobar/Ansible">Ansible</a> and create 
+  <a href="https://github.com/vdarkobar/Ansible">Ansible</a>. Create 
   <a href="https://github.com/vdarkobar/shared/blob/main/Debian.md">Debian</a> template.
 </p>
   
