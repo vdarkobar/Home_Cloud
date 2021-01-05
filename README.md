@@ -174,10 +174,10 @@ traefik
 ├── tmp
 │   ├── example1.yml
 │   └── example2.yml
-├── docker-compose.yml
 ├── .env
 ├── access.log
-└── traefik.log
+├── traefik.log
+└── docker-compose.yml
 </pre>
   
 <!--- Commented out
