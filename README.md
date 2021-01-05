@@ -8,9 +8,9 @@
   <img src="https://github.com/vdarkobar/shared/blob/main/bastion.webp">
 </p>
   
-<p align="left">
-  <a href="https://github.com/vdarkobar/shared/blob/main/Debian.md">Debian</a>  
-</p>
+
+# <a href="https://github.com/vdarkobar/shared/blob/main/Debian.md">Debian</a>  
+
 <p align="center">
   <img src="https://github.com/vdarkobar/misc/blob/main/infrastructure.webp">
 </p>
