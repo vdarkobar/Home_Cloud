@@ -15,7 +15,8 @@
   <img src="https://github.com/vdarkobar/misc/blob/main/infrastructure.webp">
 </p>
   
-### <a href="https://www.docker.com/">Docker</a>:  
+
+# <a href="https://www.docker.com/">Docker</a>:  
 *swich shell (bash) if command not working*  
   
 ```
