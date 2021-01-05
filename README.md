@@ -6,7 +6,6 @@
 
 ---
   
-1) Setup:
 # <a href="https://github.com/vdarkobar/shared/blob/main/Proxmox.md#proxmox">Proxmox</a>
   
 <p align="left">
@@ -26,7 +25,6 @@
   
 --- 
   
-2) Setup:
 # <a href="https://github.com/vdarkobar/Home_Cloud/blob/main/README.md#cloudflare">CloudFlare</a>  
   
 Login to <a href="https://www.cloudflare.com/">CloudFlare</a> and point your root domain (example.com) to your WAN IP using an A record.  
@@ -37,7 +35,7 @@ Login to <a href="https://www.cloudflare.com/">CloudFlare</a> and point your roo
   <img src="https://github.com/vdarkobar/misc/blob/main/A-record.webp">
 </p>
   
-3. Add individual subdomains, for all services, pointing to your root domain (@ for the host).  
+Add individual subdomains, for all services, pointing to your root domain (@ for the host).  
 ```
     CNAME | * | @ (or example.com)
 ```
@@ -45,7 +43,7 @@ Login to <a href="https://www.cloudflare.com/">CloudFlare</a> and point your roo
   <img src="https://github.com/vdarkobar/misc/blob/main/sub-domain.webp">
 </p>
   
-4. Add for non-WWW to WWW redirect.  
+Add for non-WWW to WWW redirect.  
 ```
     CNAME | www | YOUR WAN IP
 ```
@@ -84,7 +82,6 @@ Firewall Settings:
 #### *>> Enable port forwarding (80, 443) from your Router, or Gateway, to your Traefik instance (VM). <<*
 --- 
   
-3) Setup:
 # <a href="https://github.com/vdarkobar/Home_Cloud#traefik-proxy">Traefik Proxy</a>  
 <p align="center">
   <img src="https://github.com/vdarkobar/misc/blob/main/reverse-proxy.png">
