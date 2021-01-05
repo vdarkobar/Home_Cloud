@@ -2,7 +2,7 @@ Install and setup
 # <a href="https://github.com/vdarkobar/shared/blob/main/Proxmox.md">Proxmox</a>
   
 <p align="left">
-  Create <a href="https://github.com/vdarkobar/shared/blob/main/Bastion.md">Bastion</a>, install 
+  Create <a href="https://github.com/vdarkobar/shared/blob/main/Bastion.md#bastion">Bastion</a>, install 
   <a href="https://github.com/vdarkobar/Ansible">Ansible</a>. Create 
   <a href="https://github.com/vdarkobar/shared/blob/main/Debian.md">Debian</a> template.
 </p>
