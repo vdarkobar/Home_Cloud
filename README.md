@@ -13,7 +13,7 @@
 </p>
   
 <p align="left">
-  <a href="https://github.com/vdarkobar/Debian">Debian</a>  
+  <a href="https://github.com/vdarkobar/shared/blob/main/Debian.md">Debian</a>  
 </p>
 <p align="center">
   <img src="https://github.com/vdarkobar/misc/blob/main/infrastructure.webp">
