@@ -144,7 +144,7 @@ sed -i "s|05|${PP}|" .env && \
 rm README.md && \
 sudo chmod 600 data/acme.json && \
 sudo chown -R root:root secrets/ && \
-sudo chmod -R 600 secrets/ && \
+sudo chmod -R 600 secrets/
 ```
 Run:
 ```
