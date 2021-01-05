@@ -1,7 +1,7 @@
 ---
 
 <p align="center">
-   <i>Small Home-Cloud, centered on <a href="https://doc.traefik.io/traefik/getting-started/quick-start/">Traefik Proxy</a>, using Proxmox, Debian and Docker.</i>
+   <i>Small Home-Cloud, centered on <a href="https://doc.traefik.io/traefik/getting-started/quick-start/">Traefik Proxy</a>, using <a href="https://pve.proxmox.com/pve-docs/pve-admin-guide.html">Proxmox</a>, Debian and Docker.</i>
 </p>  
 
 ---
