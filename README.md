@@ -86,7 +86,8 @@ Firewall Settings:
 <p align="center">
   <img src="https://github.com/vdarkobar/misc/blob/main/reverse-proxy.png">
    <br><br>
-   Clone new VM from <a href="https://github.com/vdarkobar/shared/blob/main/Debian.md#debian">Template</a>.
+   Clone new VM from <a href="https://github.com/vdarkobar/shared/blob/main/Debian.md#debian">Template</a> and 
+   <a href="https://github.com/vdarkobar/shared/blob/main/Bastion.md#bastion">SSH</a> in.
   <br><br>
 </p>
   
