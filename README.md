@@ -1,5 +1,5 @@
 Install and setup
-# <a href="https://github.com/vdarkobar/shared/blob/main/Proxmox.md">Proxmox</a>
+# <a href="https://github.com/vdarkobar/shared/blob/main/Proxmox.md#proxmox">Proxmox</a>
   
 <p align="left">
   Create <a href="https://github.com/vdarkobar/shared/blob/main/Bastion.md#bastion">Bastion</a>, install 
