@@ -8,7 +8,8 @@
   <img src="https://github.com/vdarkobar/shared/blob/main/bastion.webp">
 </p>
   
-
+--- 
+  
 # <a href="https://github.com/vdarkobar/shared/blob/main/Debian.md">Debian</a>  
 
 <p align="center">
