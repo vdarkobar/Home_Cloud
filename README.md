@@ -92,7 +92,7 @@ Setup
 </p>
 <p align="center">
   <b>Services to be used behind Traefik:</b><br>
-  <a href="https://github.com/vdarkobar/NextCloud">NextCloud</a> |
+  <a href="https://github.com/vdarkobar/NextCloud/blob/main/README.md#nextcloud">NextCloud</a> |
   <a href="https://github.com/vdarkobar/Bitwarden">Bitwarden</a> |
   <a href="https://github.com/vdarkobar/WordPress">WordPress</a> |
   <a href="https://github.com/vdarkobar/Ghost-blog">Ghost</a> |
