@@ -1,6 +1,7 @@
----  
-<p align="center"; "italic">
-Small Home-Cloud, centered on Traefik Proxy, using Proxmox, Debian and Docker.
+---
+
+<p align="center">
+   <i>Small Home-Cloud, centered on Traefik Proxy, using Proxmox, Debian and Docker.</i>
 </p>  
 
 ---
