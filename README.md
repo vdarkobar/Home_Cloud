@@ -1,8 +1,8 @@
 <p align="center">
-  <b><a href="https://www.proxmox.com/de/proxmox-ve">Proxmox</a>, <a href="https://www.debian.org/index.html">Debian</a>, <a href="https://www.docker.com/">Docker</a>, <a href="https://traefik.io/traefik/">Traefik Proxy</a></b><br>
+  <b>, <a href="https://www.debian.org/index.html">Debian</a>, <a href="https://www.docker.com/">Docker</a>, <a href="https://traefik.io/traefik/">Traefik Proxy</a></b><br>
 </p>  
 
-# ProxMox
+# <a href="https://www.proxmox.com/de/proxmox-ve">Proxmox</a>
   
 <p align="left">
   <a href="https://github.com/vdarkobar/shared/blob/main/Bastion.md">Bastion</a> |
