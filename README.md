@@ -152,11 +152,27 @@ rm README.md && \
 sudo chmod 600 data/acme.json && \
 sudo chown -R root:root secrets/ && \
 sudo chmod -R 600 secrets/
+
 ```
-Run:
+  
+### Run:
 ```
 sudo docker-compose up -d
 ```
+  
+<p align="center">
+  <b>Services to be used behind Traefik:</b><br>
+  <a href="https://github.com/vdarkobar/NextCloud#nextcloud">NextCloud</a> |
+  <a href="https://github.com/vdarkobar/Bitwarden#bitwarden">Bitwarden</a> |
+  <a href="https://github.com/vdarkobar/WordPress#wordpress">WordPress</a> |
+  <a href="https://github.com/vdarkobar/Ghost-blog">Ghost</a> |
+  <a href="https://github.com/vdarkobar/Portainer">Portainer</a> |
+  <a href="https://github.com/vdarkobar/Portainer">Joomla</a> |
+  <a href="https://github.com/vdarkobar/Portainer">iPerf</a>  
+  <br><br>
+</p>  
+  
+
 ### Log:
 ```
 sudo docker-compose logs traefik
