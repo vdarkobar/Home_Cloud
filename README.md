@@ -5,14 +5,11 @@
   <a href="https://github.com/vdarkobar/Ansible">Ansible</a> and create 
   <a href="https://github.com/vdarkobar/shared/blob/main/Debian.md">Debian</a> template.
 </p>
+  
 <p align="center">
   <img src="https://github.com/vdarkobar/shared/blob/main/bastion.webp">
 </p>
   
---- 
-  
-# <a href="https://github.com/vdarkobar/shared/blob/main/Debian.md">Debian</a>  
-
 <p align="center">
   <img src="https://github.com/vdarkobar/misc/blob/main/infrastructure.webp">
 </p>
