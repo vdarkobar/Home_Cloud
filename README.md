@@ -18,7 +18,7 @@
   
 --- 
   
-# <a href="https://github.com/vdarkobar/Home_Lab">Traefik Proxy</a>  
+# <a href="https://github.com/vdarkobar/Home_Lab#traefik-proxy">Traefik Proxy</a>  
 <p align="center">
   <img src="https://github.com/vdarkobar/misc/blob/main/reverse-proxy.png">
   <br><br>
