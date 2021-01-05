@@ -137,6 +137,9 @@ rm README.md && \
 sudo chmod 600 data/acme.json && \
 sudo chown -R root:root secrets/ && \
 sudo chmod -R 600 secrets/ && \
+```
+Run:
+```
 sudo docker-compose up -d
 ```
 ### Log:
