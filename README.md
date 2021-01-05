@@ -18,7 +18,7 @@
   
 --- 
   
-# <a href="https://www.cloudflare.com/">CloudFlare</a>:  
+# <a href="https://www.cloudflare.com/">CloudFlare</a>  
   
 Point your root domain (example.com) to your WAN IP using an A record.  
 ```
@@ -75,7 +75,7 @@ Firewall Settings:
 #### *>> Enable port forwarding (80, 443) from your Router, or Gateway, to your Traefik instance (VM).*
 --- 
   
-  
+
 # <a href="https://github.com/vdarkobar/Home_Lab#traefik-proxy">Traefik Proxy</a>  
 <p align="center">
   <img src="https://github.com/vdarkobar/misc/blob/main/reverse-proxy.png">
@@ -92,7 +92,6 @@ Firewall Settings:
   <a href="https://github.com/vdarkobar/Portainer">iPerf</a>  
   <br><br>
 </p>  
-
   
 <!--- Commented out
 ### Server:  
