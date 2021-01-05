@@ -152,7 +152,6 @@ rm README.md && \
 sudo chmod 600 data/acme.json && \
 sudo chown -R root:root secrets/ && \
 sudo chmod -R 600 secrets/
-
 ```
   
 ### Run:
@@ -161,6 +160,7 @@ sudo docker-compose up -d
 ```
   
 <p align="center">
+  <br><br>
   <b>Services to be used behind Traefik:</b><br>
   <a href="https://github.com/vdarkobar/NextCloud#nextcloud">NextCloud</a> |
   <a href="https://github.com/vdarkobar/Bitwarden#bitwarden">Bitwarden</a> |
