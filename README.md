@@ -18,24 +18,7 @@
   
 --- 
   
-# <a href="https://github.com/vdarkobar/Home_Lab#traefik-proxy">Traefik Proxy</a>  
-<p align="center">
-  <img src="https://github.com/vdarkobar/misc/blob/main/reverse-proxy.png">
-  <br><br>
-</p>
-<p align="center">
-  <b>Services:</b><br>
-  <a href="https://github.com/vdarkobar/NextCloud">NextCloud</a> |
-  <a href="https://github.com/vdarkobar/Bitwarden">Bitwarden</a> |
-  <a href="https://github.com/vdarkobar/WordPress">WordPress</a> |
-  <a href="https://github.com/vdarkobar/Ghost-blog">Ghost</a> |
-  <a href="https://github.com/vdarkobar/Portainer">Portainer</a> |
-  <a href="https://github.com/vdarkobar/Portainer">Joomla</a> |
-  <a href="https://github.com/vdarkobar/Portainer">iPerf</a>  
-  <br><br>
-</p>  
-
-### <a href="https://www.cloudflare.com/">CloudFlare</a>:  
+# <a href="https://www.cloudflare.com/">CloudFlare</a>:  
   
 Point your root domain (example.com) to your WAN IP using an A record.  
 ```
@@ -91,6 +74,25 @@ Firewall Settings:
 ---
 #### *>> Enable port forwarding (80, 443) from your Router, or Gateway, to your Traefik instance (VM).*
 --- 
+  
+  
+# <a href="https://github.com/vdarkobar/Home_Lab#traefik-proxy">Traefik Proxy</a>  
+<p align="center">
+  <img src="https://github.com/vdarkobar/misc/blob/main/reverse-proxy.png">
+  <br><br>
+</p>
+<p align="center">
+  <b>Services:</b><br>
+  <a href="https://github.com/vdarkobar/NextCloud">NextCloud</a> |
+  <a href="https://github.com/vdarkobar/Bitwarden">Bitwarden</a> |
+  <a href="https://github.com/vdarkobar/WordPress">WordPress</a> |
+  <a href="https://github.com/vdarkobar/Ghost-blog">Ghost</a> |
+  <a href="https://github.com/vdarkobar/Portainer">Portainer</a> |
+  <a href="https://github.com/vdarkobar/Portainer">Joomla</a> |
+  <a href="https://github.com/vdarkobar/Portainer">iPerf</a>  
+  <br><br>
+</p>  
+
   
 <!--- Commented out
 ### Server:  
