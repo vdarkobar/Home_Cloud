@@ -105,7 +105,7 @@ Setup
 ### Clone this git repository:
 ```
 RED='\033[0;31m'; echo -ne "${RED}Enter directory name: "; read DIR; \
-mkdir -p "$DIR"; cd "$DIR" && git clone https://github.com/vdarkobar/Traefik2.git .
+mkdir -p "$DIR"; cd "$DIR" && git clone https://github.com/vdarkobar/Home_Cloud.git .
 ```
   
 #### *Decide what you will use for*:
