@@ -9,8 +9,8 @@
 Setup
 # <a href="https://github.com/vdarkobar/shared/blob/main/Proxmox.md#proxmox">Proxmox</a>
   
-1. <p align="left">
-  Create <a href="https://github.com/vdarkobar/shared/blob/main/Bastion.md#bastion">Bastion</a> and 
+<p align="left">
+  1. Create <a href="https://github.com/vdarkobar/shared/blob/main/Bastion.md#bastion">Bastion</a> and 
   install <a href="https://github.com/vdarkobar/Playbooks#ansible">Ansible</a>. 
   Create <a href="https://github.com/vdarkobar/shared/blob/main/Debian.md#debian">Debian Template</a> and 
   install <a href="https://github.com/vdarkobar/shared/blob/main/Docker.md#docker">Docker</a>.
