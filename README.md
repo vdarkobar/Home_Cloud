@@ -1,7 +1,7 @@
 ---
-
-Small Home-Cloud
-
+<p align="center">
+Small Home-Cloud, centered on traefik Proxy, using Proxmox, Debian and Docker.
+</p>
 ---
 
 Setup
