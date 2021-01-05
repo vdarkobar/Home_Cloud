@@ -29,7 +29,7 @@ Setup
 Setup
 # <a href="https://github.com/vdarkobar/Home_Cloud/blob/main/README.md#cloudflare">CloudFlare</a>  
   
-Login to <a href="https://www.cloudflare.com/">CloudFlare</a> and point your root domain (example.com) to your WAN IP using an A record.  
+2. Login to <a href="https://www.cloudflare.com/">CloudFlare</a> and point your root domain (example.com) to your WAN IP using an A record.  
 ```
     A | example.com | YOUR WAN IP
 ```
@@ -37,7 +37,7 @@ Login to <a href="https://www.cloudflare.com/">CloudFlare</a> and point your roo
   <img src="https://github.com/vdarkobar/misc/blob/main/A-record.webp">
 </p>
   
-Add individual subdomains, for all services, pointing to your root domain (@ for the host).  
+3. Add individual subdomains, for all services, pointing to your root domain (@ for the host).  
 ```
     CNAME | * | @ (or example.com)
 ```
@@ -45,7 +45,7 @@ Add individual subdomains, for all services, pointing to your root domain (@ for
   <img src="https://github.com/vdarkobar/misc/blob/main/sub-domain.webp">
 </p>
   
-Add for non-WWW to WWW redirect.  
+4. Add for non-WWW to WWW redirect.  
 ```
     CNAME | www | YOUR WAN IP
 ```
