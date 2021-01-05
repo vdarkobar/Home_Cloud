@@ -1,9 +1,9 @@
----
+---  
 <p align="center">
 Small Home-Cloud, centered on traefik Proxy, using Proxmox, Debian and Docker.
-</p>
+</p>  
 ---
-
+  
 Setup
 # <a href="https://github.com/vdarkobar/shared/blob/main/Proxmox.md#proxmox">Proxmox</a>
   
