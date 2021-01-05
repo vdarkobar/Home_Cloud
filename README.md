@@ -92,28 +92,6 @@ Setup
   <a href="https://github.com/vdarkobar/Portainer">iPerf</a>  
 </p>  
   
-#### Folder/File structure:  
-
-<pre>
-traefik2
-├── data
-│   ├── acme.json
-│   └── configurations
-│       ├── middlewares-chains.yml
-│       ├── middlewares.yml
-│       └── tls.yml
-├── secrets
-│   ├── cloudflare_api_key.secret
-│   └── cloudflare_email.secret
-├── shared
-│   └── .htpasswd
-├── tmp
-├── docker-compose.yml
-├── .env
-├── access.log
-└── traefik.log
-</pre>
-
 ### Clone this git repository:
 ```
 RED='\033[0;31m'; echo -ne "${RED}Enter directory name: "; read DIR; \
@@ -131,7 +109,6 @@ Subdomain for Traefik,
 Portainer Port.
 ```
   
-
 ### Copy <a href="https://dash.cloudflare.com/profile/api-tokens">CloudFlare Global API Key</a> to memory (*clipboard*):
   
 ### Select and run all at once. Enter required data:
@@ -165,6 +142,29 @@ sudo docker-compose up -d
 sudo docker-compose logs traefik
 sudo docker logs -tf --tail="50" traefik
 ```
+  
+#### Folder/File structure:  
+
+<pre>
+traefik2
+├── data
+│   ├── acme.json
+│   └── configurations
+│       ├── middlewares-chains.yml
+│       ├── middlewares.yml
+│       └── tls.yml
+├── secrets
+│   ├── cloudflare_api_key.secret
+│   └── cloudflare_email.secret
+├── shared
+│   └── .htpasswd
+├── tmp
+├── docker-compose.yml
+├── .env
+├── access.log
+└── traefik.log
+</pre>
+  
 <!--- Commented out
 <p align="center">
   <b>Resources:</b><br>
