@@ -159,7 +159,7 @@ sudo docker logs -tf --tail="50" traefik
 #### Folder/File structure:  
 
 <pre>
-traefik2
+traefik
 ├── data
 │   ├── acme.json
 │   └── configurations
@@ -172,6 +172,8 @@ traefik2
 ├── shared
 │   └── .htpasswd
 ├── tmp
+│   ├── example1.yml
+│   └── example2.yml
 ├── docker-compose.yml
 ├── .env
 ├── access.log
