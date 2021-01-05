@@ -1,7 +1,3 @@
-<p align="center">
-  <b>, <a href="https://www.debian.org/index.html">Debian</a>, , </b><br>
-</p>  
-
 # <a href="https://www.proxmox.com/de/proxmox-ve">Proxmox</a>
   
 <p align="left">
