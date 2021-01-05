@@ -6,11 +6,11 @@
 
 ---
   
-Setup
+1) Setup:
 # <a href="https://github.com/vdarkobar/shared/blob/main/Proxmox.md#proxmox">Proxmox</a>
   
 <p align="left">
-  1. Create <a href="https://github.com/vdarkobar/shared/blob/main/Bastion.md#bastion">Bastion</a> and 
+  Create <a href="https://github.com/vdarkobar/shared/blob/main/Bastion.md#bastion">Bastion</a> and 
   install <a href="https://github.com/vdarkobar/Playbooks#ansible">Ansible</a>. 
   Create <a href="https://github.com/vdarkobar/shared/blob/main/Debian.md#debian">Debian Template</a> and 
   install <a href="https://github.com/vdarkobar/shared/blob/main/Docker.md#docker">Docker</a>.
@@ -26,10 +26,10 @@ Setup
   
 --- 
   
-Setup
+2) Setup:
 # <a href="https://github.com/vdarkobar/Home_Cloud/blob/main/README.md#cloudflare">CloudFlare</a>  
   
-2. Login to <a href="https://www.cloudflare.com/">CloudFlare</a> and point your root domain (example.com) to your WAN IP using an A record.  
+Login to <a href="https://www.cloudflare.com/">CloudFlare</a> and point your root domain (example.com) to your WAN IP using an A record.  
 ```
     A | example.com | YOUR WAN IP
 ```
@@ -84,24 +84,13 @@ Firewall Settings:
 #### *>> Enable port forwarding (80, 443) from your Router, or Gateway, to your Traefik instance (VM). <<*
 --- 
   
-Setup
+3) Setup:
 # <a href="https://github.com/vdarkobar/Home_Cloud#traefik-proxy">Traefik Proxy</a>  
 <p align="center">
   <img src="https://github.com/vdarkobar/misc/blob/main/reverse-proxy.png">
   <br><br>
 </p>
-<p align="center">
-  <b>Services to be used behind Traefik:</b><br>
-  <a href="https://github.com/vdarkobar/NextCloud#nextcloud">NextCloud</a> |
-  <a href="https://github.com/vdarkobar/Bitwarden#bitwarden">Bitwarden</a> |
-  <a href="https://github.com/vdarkobar/WordPress#wordpress">WordPress</a> |
-  <a href="https://github.com/vdarkobar/Ghost-blog">Ghost</a> |
-  <a href="https://github.com/vdarkobar/Portainer">Portainer</a> |
-  <a href="https://github.com/vdarkobar/Portainer">Joomla</a> |
-  <a href="https://github.com/vdarkobar/Portainer">iPerf</a>  
-  <br><br>
-</p>  
-  
+
 ### Clone this git repository:
 ```
 RED='\033[0;31m'; echo -ne "${RED}Enter directory name: "; read DIR; \
