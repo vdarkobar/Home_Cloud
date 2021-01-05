@@ -1,4 +1,7 @@
-Install and setup
+Small Home-Cloud
+---
+
+Setup
 # <a href="https://github.com/vdarkobar/shared/blob/main/Proxmox.md#proxmox">Proxmox</a>
   
 <p align="left">
