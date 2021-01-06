@@ -26,7 +26,7 @@ Small <i><a href="https://github.com/vdarkobar/Home_Cloud#services-to-be-used-be
   
 # <a href="https://github.com/vdarkobar/Home_Cloud/blob/main/README.md#cloudflare">CloudFlare</a>  
   
-Login to <a href="https://www.cloudflare.com/">CloudFlare</a> and point your root domain (example.com) to your WAN IP using an A record.  
+Login to <a href="https://dash.cloudflare.com/">CloudFlare</a> and point your root domain (example.com) to your WAN IP using an A record.  
 ```
     A | example.com | YOUR WAN IP
 ```
