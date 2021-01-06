@@ -152,6 +152,7 @@ rm README.md && \
 sudo chmod 600 data/acme.json && \
 sudo chown -R root:root secrets/ && \
 sudo chmod -R 600 secrets/
+
 ```
   
 ### Run:
@@ -159,9 +160,9 @@ sudo chmod -R 600 secrets/
 sudo docker-compose up -d
 ```
   
+### Services to be used behind Traefik  
+
 <p align="center">
-  <br><br>
-  <b>Services to be used behind Traefik:</b><br>
   <br><br>
   <a href="https://github.com/vdarkobar/NextCloud#nextcloud">NextCloud</a> |
   <a href="https://github.com/vdarkobar/Bitwarden#bitwarden">Bitwarden</a> |
@@ -173,6 +174,13 @@ sudo docker-compose up -d
   <br><br>
 </p>  
   
+<p align="center">
+   <br><br>
+   Clone new VM from <a href="https://github.com/vdarkobar/shared/blob/main/Debian.md#debian">Template</a>, 
+   <a href="https://github.com/vdarkobar/shared/blob/main/Bastion.md#bastion">SSH</a> in and install 
+   <a href="https://github.com/vdarkobar/shared/blob/main/Docker.md#docker">Docker</a>.
+  <br><br>
+</p>
 
 ### Log:
 ```
