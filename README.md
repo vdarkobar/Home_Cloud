@@ -5,7 +5,8 @@ Small <i><a href="https://github.com/vdarkobar/Home_Cloud#services-to-be-used-be
 </p>  
 
 ---
-  
+
+Install and configure:
 # <a href="https://github.com/vdarkobar/shared/blob/main/Proxmox.md#proxmox">Proxmox</a>
   
 <p align="left">
