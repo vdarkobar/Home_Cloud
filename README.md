@@ -178,6 +178,7 @@ sudo docker-compose up -d
   <a href="https://github.com/vdarkobar/Ghost-blog">Ghost</a> |
   <a href="https://github.com/vdarkobar/Portainer">Portainer</a> |
   <a href="https://github.com/vdarkobar/Portainer">Joomla</a>  
+  <br><br>
 </p>  
   
 ---  
