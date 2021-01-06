@@ -163,6 +163,12 @@ sudo docker-compose up -d
 --- 
   
 ## Services to be used behind Traefik:  
+<p align="center">
+   In order to install Services, clone new VM from a <a href="https://github.com/vdarkobar/shared/blob/main/Debian.md#debian">Template</a>, 
+   <a href="https://github.com/vdarkobar/shared/blob/main/Bastion.md#bastion">SSH</a> in and install 
+   <a href="https://github.com/vdarkobar/shared/blob/main/Docker.md#docker">Docker</a>.
+  <br><br>
+</p>
 
 <p align="center">
   <a href="https://github.com/vdarkobar/NextCloud#nextcloud">NextCloud</a> |
@@ -173,13 +179,6 @@ sudo docker-compose up -d
   <a href="https://github.com/vdarkobar/Portainer">Joomla</a>  
 </p>  
   
-<p align="center">
-   In order to install Services, clone new VM from a <a href="https://github.com/vdarkobar/shared/blob/main/Debian.md#debian">Template</a>, 
-   <a href="https://github.com/vdarkobar/shared/blob/main/Bastion.md#bastion">SSH</a> in and install 
-   <a href="https://github.com/vdarkobar/shared/blob/main/Docker.md#docker">Docker</a>.
-  <br><br>
-</p>
-
 ---  
   
 ### Log:
