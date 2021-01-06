@@ -130,7 +130,7 @@ Subdomain for Traefik,
 Portainer Port.
 ```
   
-### Copy <a href="https://dash.cloudflare.com/profile/api-tokens">CloudFlare Global API Key</a> to memory (*clipboard*):
+### Prepare <a href="https://dash.cloudflare.com/profile/api-tokens">CloudFlare Global API Key</a>:
   
 ### Select and run all at once. Enter required data:
 ```
