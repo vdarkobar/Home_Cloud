@@ -1,7 +1,7 @@
 ---
 
 <p align="center">
-   <i>Small Home-Cloud, centered on <a href="https://doc.traefik.io/traefik/getting-started/quick-start/">Traefik Proxy</a>, using <a href="https://pve.proxmox.com/pve-docs/pve-admin-guide.html">Proxmox</a>, <a href="https://www.debian.org/doc/">Debian</a> and <a href="https://docs.docker.com/">Docker</a>.</i>
+   <i><a href="https://github.com/vdarkobar/Home_Cloud#services-to-be-used-behind-traefik">Small Home-Cloud</a>, centered on a<a href="https://doc.traefik.io/traefik/getting-started/quick-start/">Traefik Proxy</a>, using <a href="https://pve.proxmox.com/pve-docs/pve-admin-guide.html">Proxmox</a>, <a href="https://www.debian.org/doc/">Debian</a> and <a href="https://docs.docker.com/">Docker</a>.</i>
 </p>  
 
 ---
@@ -162,7 +162,7 @@ sudo docker-compose up -d
   
 --- 
   
-### Services to be used behind Traefik  
+## Services to be used behind Traefik:  
 
 <p align="center">
   <a href="https://github.com/vdarkobar/NextCloud#nextcloud">NextCloud</a> |
