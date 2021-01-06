@@ -191,28 +191,29 @@ sudo docker-compose logs traefik
 sudo docker logs -tf --tail="50" traefik
 ```
   
-#### Folder/File structure:  
+#### Example:  
 
 <pre>
-server1                                         traefik
-├── docker                                      ├── data
-│   └── traefik                                 │   ├── acme.json
-│                                               │   └── configurations
-server2                                         │       ├── middlewares-chains.yml
-│   ├── Bitwarden                               │       ├── middlewares.yml
-│   └── NextCloud                               │       └── tls.yml
-│                                               ├── secrets
-server3                                         │   ├── cloudflare_api_key.secret
-├── docker                                      │   └── cloudflare_email.secret
-│   ├── Bitwarden                               ├── shared
-│   ├── NextCloud                               │   └── .htpasswd
-│   └── WordPress                               ├── tmp
-│                                               │   ├── example1.yml
-└── docker                                      │   └── example2.yml
-    ├── Joomla                                  ├── .env
-    └── Ghost                                   ├── access.log
-                                                ├── traefik.log
-                                                └── docker-compose.yml
+proxmox                                         server1
+└── server1                                     └── traefik
+    ├── docker                                      ├── data
+    │   └── traefik                                 │   ├── acme.json
+    │                                               │   └── configurations
+    server2                                         │       ├── middlewares-chains.yml
+    │   ├── Bitwarden                               │       ├── middlewares.yml
+    │   └── NextCloud                               │       └── tls.yml
+    │                                               ├── secrets
+    server3                                         │   ├── cloudflare_api_key.secret
+    ├── docker                                      │   └── cloudflare_email.secret
+    │   ├── Bitwarden                               ├── shared
+    │   ├── NextCloud                               │   └── .htpasswd
+    │   └── WordPress                               ├── tmp
+    │                                               │   ├── example1.yml
+    └── docker                                      │   └── example2.yml
+        ├── Joomla                                  ├── .env
+        └── Ghost                                   ├── access.log
+                                                    ├── traefik.log
+                                                    └── docker-compose.yml
 </pre>
   
 <!--- Commented out
