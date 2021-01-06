@@ -9,7 +9,7 @@
 # <a href="https://github.com/vdarkobar/shared/blob/main/Proxmox.md#proxmox">Proxmox</a>
   
 <p align="left">
-  Create <a href="https://github.com/vdarkobar/shared/blob/main/Bastion.md#bastion">Bastion</a> and 
+  Create <a href="https://github.com/vdarkobar/shared/blob/main/Bastion.md#bastion">Bastion VM</a> and 
   install <a href="https://github.com/vdarkobar/Playbooks#ansible">Ansible</a>. 
   Create <a href="https://github.com/vdarkobar/shared/blob/main/Debian.md#debian">Debian Template</a>.
 </p>
