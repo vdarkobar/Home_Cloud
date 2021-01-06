@@ -215,7 +215,7 @@ proxmox                                         server1
     │         ├── Joomla                                ├── access.log  
     │         └── Ghost                                 ├── traefik.log  
     │                                                   └── docker-compose.yml 
-    bastion                                                    
+    └─bastion                                                    
         └── ansible                                            
                                                     
 </pre>
