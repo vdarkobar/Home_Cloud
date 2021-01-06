@@ -196,24 +196,25 @@ sudo docker logs -tf --tail="50" traefik
 <pre>
 proxmox                                         server1
 └── server1                                     └── traefik
-    ├── docker                                      ├── data
-    │   └── traefik                                 │   ├── acme.json
+    │   └── docker                                  ├── data
+    │       └── traefik                             │   ├── acme.json
     │                                               │   └── configurations
     server2                                         │       ├── middlewares-chains.yml
-    │   ├── Bitwarden                               │       ├── middlewares.yml
-    │   └── NextCloud                               │       └── tls.yml
-    │                                               ├── secrets
-    server3                                         │   ├── cloudflare_api_key.secret
-    ├── docker                                      │   └── cloudflare_email.secret
-    │   ├── Bitwarden                               ├── shared
-    │   ├── NextCloud                               │   └── .htpasswd
-    │   └── WordPress                               ├── tmp
-    │                                               │   ├── example1.yml
-    └── docker                                      │   └── example2.yml
-        ├── Joomla                                  ├── .env
-        └── Ghost                                   ├── access.log
-                                                    ├── traefik.log
+    │   └── docker                                  │       ├── middlewares.yml
+    │       ├── Bitwarden                           │       └── tls.yml
+    │       └── NextCloud                           ├── secrets
+    │                                               │   ├── cloudflare_api_key.secret
+    server3                                         │   └── cloudflare_email.secret
+    │   └── docker                                  ├── shared
+    │       ├── Bitwarden                           │   └── .htpasswd
+    │       ├── NextCloud                           ├── tmp
+    │       └── WordPress                           │   ├── example1.yml
+    server4                                         │   └── example2.yml
+        └── docker                                  ├── .env
+            ├── Joomla                              ├── access.log
+            └── Ghost                               ├── traefik.log
                                                     └── docker-compose.yml
+                                                    
 </pre>
   
 <!--- Commented out
