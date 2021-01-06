@@ -160,10 +160,10 @@ sudo chmod -R 600 secrets/
 sudo docker-compose up -d
 ```
   
+  
 ### Services to be used behind Traefik  
 
 <p align="center">
-  <br><br>
   <a href="https://github.com/vdarkobar/NextCloud#nextcloud">NextCloud</a> |
   <a href="https://github.com/vdarkobar/Bitwarden#bitwarden">Bitwarden</a> |
   <a href="https://github.com/vdarkobar/WordPress#wordpress">WordPress</a> |
@@ -172,11 +172,10 @@ sudo docker-compose up -d
   <a href="https://github.com/vdarkobar/Portainer">Joomla</a> |
   <a href="https://github.com/vdarkobar/Portainer">iPerf</a>  
   <br><br>
-</p>  
-  
+</p>
 <p align="center">
    <br><br>
-   Clone new VM from <a href="https://github.com/vdarkobar/shared/blob/main/Debian.md#debian">Template</a>, 
+   In order to install Services, clone new VM from a <a href="https://github.com/vdarkobar/shared/blob/main/Debian.md#debian">Template</a>, 
    <a href="https://github.com/vdarkobar/shared/blob/main/Bastion.md#bastion">SSH</a> in and install 
    <a href="https://github.com/vdarkobar/shared/blob/main/Docker.md#docker">Docker</a>.
   <br><br>
