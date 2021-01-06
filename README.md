@@ -160,6 +160,7 @@ sudo chmod -R 600 secrets/
 sudo docker-compose up -d
 ```
   
+--- 
   
 ### Services to be used behind Traefik  
 
@@ -171,16 +172,17 @@ sudo docker-compose up -d
   <a href="https://github.com/vdarkobar/Portainer">Portainer</a> |
   <a href="https://github.com/vdarkobar/Portainer">Joomla</a> |
   <a href="https://github.com/vdarkobar/Portainer">iPerf</a>  
-  <br><br>
-</p>
+</p>  
+  
 <p align="center">
-   <br><br>
    In order to install Services, clone new VM from a <a href="https://github.com/vdarkobar/shared/blob/main/Debian.md#debian">Template</a>, 
    <a href="https://github.com/vdarkobar/shared/blob/main/Bastion.md#bastion">SSH</a> in and install 
    <a href="https://github.com/vdarkobar/shared/blob/main/Docker.md#docker">Docker</a>.
   <br><br>
 </p>
 
+---  
+  
 ### Log:
 ```
 sudo docker-compose logs traefik
