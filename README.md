@@ -194,25 +194,25 @@ sudo docker logs -tf --tail="50" traefik
 #### Folder/File structure:  
 
 <pre>
-traefik
-├── data
-│   ├── acme.json
-│   └── configurations
-│       ├── middlewares-chains.yml
-│       ├── middlewares.yml
-│       └── tls.yml
-├── secrets
-│   ├── cloudflare_api_key.secret
-│   └── cloudflare_email.secret
-├── shared
-│   └── .htpasswd
-├── tmp
-│   ├── example1.yml
-│   └── example2.yml
-├── .env
-├── access.log
-├── traefik.log
-└── docker-compose.yml
+server1                                         traefik
+├── docker                                      ├── data
+│   └── traefik                                 │   ├── acme.json
+│                                               │   └── configurations
+server2                                         │       ├── middlewares-chains.yml
+│   ├── Bitwarden                               │       ├── middlewares.yml
+│   └── NextCloud                               │       └── tls.yml
+│                                               ├── secrets
+server3                                         │   ├── cloudflare_api_key.secret
+├── docker                                      │   └── cloudflare_email.secret
+│   ├── Bitwarden                               ├── shared
+│   ├── NextCloud                               │   └── .htpasswd
+│   └── WordPress                               ├── tmp
+│                                               │   ├── example1.yml
+└── docker                                      │   └── example2.yml
+    ├── Joomla                                  ├── .env
+    └── Ghost                                   ├── access.log
+                                                ├── traefik.log
+                                                └── docker-compose.yml
 </pre>
   
 <!--- Commented out
