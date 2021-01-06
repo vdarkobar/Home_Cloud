@@ -209,11 +209,13 @@ proxmox                                         server1
     │       ├── Bitwarden                           │   └── .htpasswd
     │       ├── NextCloud                           ├── tmp
     │       └── WordPress                           │   ├── example1.yml
-    server4                                         │   └── example2.yml
-        └── docker                                  ├── .env
-            ├── Joomla                              ├── access.log
-            └── Ghost                               ├── traefik.log
+    server4                                         
+        └── docker                                  │   └── example2.yml
+            ├── Joomla                              ├── .env
+            └── Ghost                               ├── access.log
+                                                    ├── traefik.log
                                                     └── docker-compose.yml
+                                                    
                                                     
 </pre>
   
