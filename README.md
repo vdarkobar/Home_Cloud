@@ -85,7 +85,7 @@ Firewall Settings:
 <p align="center">
   <img src="https://github.com/vdarkobar/misc/blob/main/reverse-proxy.png">
    <br><br>
-   Clone new VM from <a href="https://github.com/vdarkobar/shared/blob/main/Debian.md#debian">Template</a> and 
+   Clone new VM from <a href="https://github.com/vdarkobar/shared/blob/main/Debian.md#debian">Template</a>, 
    <a href="https://github.com/vdarkobar/shared/blob/main/Bastion.md#bastion">SSH</a> in and install 
    <a href="https://github.com/vdarkobar/shared/blob/main/Docker.md#docker">Docker</a>.
   <br><br>
