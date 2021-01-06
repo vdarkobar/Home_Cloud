@@ -11,8 +11,7 @@
 <p align="left">
   Create <a href="https://github.com/vdarkobar/shared/blob/main/Bastion.md#bastion">Bastion</a> and 
   install <a href="https://github.com/vdarkobar/Playbooks#ansible">Ansible</a>. 
-  Create <a href="https://github.com/vdarkobar/shared/blob/main/Debian.md#debian">Debian Template</a> and 
-  install <a href="https://github.com/vdarkobar/shared/blob/main/Docker.md#docker">Docker</a>.
+  Create <a href="https://github.com/vdarkobar/shared/blob/main/Debian.md#debian">Debian Template</a>.
 </p>
   
 <p align="center">
@@ -87,7 +86,8 @@ Firewall Settings:
   <img src="https://github.com/vdarkobar/misc/blob/main/reverse-proxy.png">
    <br><br>
    Clone new VM from <a href="https://github.com/vdarkobar/shared/blob/main/Debian.md#debian">Template</a> and 
-   <a href="https://github.com/vdarkobar/shared/blob/main/Bastion.md#bastion">SSH</a> in.
+   <a href="https://github.com/vdarkobar/shared/blob/main/Bastion.md#bastion">SSH</a> in and install 
+   <a href="https://github.com/vdarkobar/shared/blob/main/Docker.md#docker">Docker</a>.
   <br><br>
 </p>
   
