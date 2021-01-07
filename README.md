@@ -144,7 +144,7 @@ echo -ne "${RED}Enter Let's Encrypt Email: "; read LEEMAIL; \
 echo -ne "${RED}Enter Traefik Subdomain: "; read SUB; \
 echo -ne "${RED}Enter Domain name: "; read DNAME; \
 echo -ne "${RED}Enter Portainer Port: "; read PP; \
-echo $(htpasswd -nbB "$UNAME" "$PASS") > ~/shared/.htpasswd && \
+echo $(htpasswd -nbB "$UNAME" "$PASS") > shared/.htpasswd && \
 echo ${CFEMAIL} > secrets/cloudflare_email.secret && \
 echo ${CFAPI} > secrets/cloudflare_api_key.secret && \
 sed -i "s|01|${TZONE}|" .env && \
