@@ -7,11 +7,26 @@ http:
     # Website security
     secureHeaders:
       headers:
+        accessControlAllowMethods:
+          - GET
+          - OPTIONS
+          - PUT
+        accessControlMaxAge: 100
+        hostsProxyHeaders:
+          - "X-Forwarded-Host"
         sslRedirect: true
-        forceSTSHeader: true
+        stsSeconds: 63072000 # 31536000
         stsIncludeSubdomains: true
         stsPreload: true
-        stsSeconds: 31536000
+        forceSTSHeader: true
+        customFrameOptionsValue: "allow-from https:example.com"
+        contentTypeNosniff: true
+        browserXssFilter: true
+        referrerPolicy: "same-origin"
+        featurePolicy: "camera 'none'; geolocation 'none'; microphone 'none'; payment 'none'; usb 'none'; vr 'none';"
+        customResponseHeaders:
+          X-Robots-Tag: "none,noarchive,nosnippet,notranslate,noimageindex,"
+          server: ""
 
     # Basic user authentification (username/password)
     user-auth:
@@ -24,25 +39,3 @@ http:
       rateLimit:
         average: 100
         burst: 50
-
-
-# Uncoment for different services
-
-    # Websocket - Bitwarden
-#    bw-stripPrefix:
-#      stripPrefix:
-#        prefixes:
-#          - "/notifications/hub"
-#        forceSlash: false
-
-    # WWW - Redirect1
-#    www-redirect1:
-#      redirectRegex:
-#        regex: "^https://domain1/(.*)"
-#        replacement: "https://www.domain1/${1}"
-
-    # WWW - Redirect2
-#    www-redirect2:
-#      redirectRegex:
-#        regex: "^https://domain2/(.*)"
-#        replacement: "https://www.domain2/${1}"
