@@ -153,6 +153,8 @@ sed -i "s|03|${SUB}|" .env && \
 sed -i "s|04|${DNAME}|" .env && \
 sed -i "s|05|${PP}|" .env && \
 rm README.md && \
+sudo touch data/acme.json \
+sudo chown root:root data/acme.json
 sudo chmod 600 data/acme.json && \
 sudo chown -R root:root secrets/ && \
 sudo chmod -R 600 secrets/
