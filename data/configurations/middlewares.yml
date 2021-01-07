@@ -1,6 +1,10 @@
 # Dynamic configuration
 http:
+
+  # All middlewares
   middlewares:
+  
+    # Website security
     secureHeaders:
       headers:
         sslRedirect: true
@@ -9,17 +13,9 @@ http:
         stsPreload: true
         stsSeconds: 31536000
 
-    # Websocket middleware
-    bw-stripPrefix:
-      stripPrefix:
-        prefixes:
-          - "/notifications/hub"
-        forceSlash: false
-
+    # Basic user authentification (username/password)
     user-auth:
       basicAuth:
-#        users:
-#          - "username:encrypted-password"
         usersFile: "/shared/.htpasswd" # Mount the volume through docker-compose.yml
         realm: "Traefik 2 Basic Auth"
 
@@ -28,6 +24,16 @@ http:
       rateLimit:
         average: 100
         burst: 50
+
+
+# Uncoment for different services
+
+    # Websocket - Bitwarden
+#    bw-stripPrefix:
+#      stripPrefix:
+#        prefixes:
+#          - "/notifications/hub"
+#        forceSlash: false
 
     # WWW - Redirect1
 #    www-redirect1:
