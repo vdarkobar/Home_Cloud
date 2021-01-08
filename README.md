@@ -159,8 +159,8 @@ touch traefik.log && \
 touch data/acme.json && \
 chmod 600 data/acme.json && \
 chown root:root data/acme.json && \
-chmod -R 600 secrets/
-chown -R root:root secrets/ && \
+chmod -R 600 secrets/ && \
+chown -R root:root secrets/
 ```
   
 ### Run:
