@@ -163,7 +163,7 @@ sudo chown -R root:root secrets/ && \
 sudo chmod -R 600 secrets/
 ```
   
-### Run:
+### Start Traefik:
 ```
 sudo docker-compose up -d
 ```
