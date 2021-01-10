@@ -216,9 +216,9 @@ proxmox                                         server1
     │       └── WordPress                               ├── tmp
     │                                                   │   ├── example1.yml
     server4                                             │   └── example2.yml
-    │     └── docker                                    ├── .env  
-    │         ├── Joomla                                ├── access.log  
-    │         └── Ghost                                 ├── traefik.log  
+    │   └── docker                                      ├── .env  
+    │       ├── Joomla                                  ├── access.log  
+    │       └── Ghost                                   ├── traefik.log  
     │                                                   └── docker-compose.yml 
     └─bastion                                                    
         └── ansible                                            
