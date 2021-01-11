@@ -127,8 +127,7 @@ CloudFlare email and API Key,
 Time Zone, 
 Let's Encrypt Email, 
 Domain name, 
-Subdomain for Traefik,
-Portainer Port.
+Subdomain for Traefik.
 ```
   
 ### Prepare <a href="https://dash.cloudflare.com/profile/api-tokens">CloudFlare Global API Key</a>:
@@ -146,7 +145,6 @@ echo -ne "${RED}Enter Time Zone: "; read TZONE; \
 echo -ne "${RED}Enter Let's Encrypt Email: "; read LEEMAIL; \
 echo -ne "${RED}Enter Traefik Subdomain: "; read SUB; \
 echo -ne "${RED}Enter Domain name: "; read DNAME; \
-echo -ne "${RED}Enter Portainer Port: "; read PP; \
 echo $(htpasswd -nbB "$UNAME" "$PASS") > shared/.htpasswd && \
 echo ${CFEMAIL} > secrets/cloudflare_email.secret && \
 echo ${CFAPI} > secrets/cloudflare_api_key.secret && \
@@ -154,7 +152,6 @@ sed -i "s|01|${TZONE}|" .env && \
 sed -i "s|02|${LEEMAIL}|" .env && \
 sed -i "s|03|${SUB}|" .env && \
 sed -i "s|04|${DNAME}|" .env && \
-sed -i "s|05|${PP}|" .env && \
 rm README.md && \
 touch access.log && \
 touch traefik.log && \
