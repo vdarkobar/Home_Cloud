@@ -82,7 +82,7 @@ Firewall Settings:
 ---
 #### *>> Enable port forwarding (80, 443) from your Router, or Gateway, to your Traefik instance (VM). <<*
 --- 
-  
+<p>{{reading_time}}</p>  
 # <a href="https://github.com/vdarkobar/Home_Cloud#traefik-proxy">Traefik Proxy</a>  
 
    Clone new VM from <a href="https://github.com/vdarkobar/shared/blob/main/Debian.md#debian">Template</a>, 
@@ -236,14 +236,14 @@ proxmox                                         server1
 
 <p align="center">
   <b>Resources:</b><br>
-  <a href="">Proxmox</a> |
-  <a href="">Debian</a> |
-  <a href="">Docker</a> |
-  <a href="">Cloudflare</a> |
-  <a href="">Traefik Proxy</a> |
+  <a href="https://pve.proxmox.com/wiki/Main_Page">Proxmox</a> |
+  <a href="https://www.debian.org/doc/">Debian</a> |
+  <a href="https://docs.docker.com/">Docker</a> |
+  <a href="https://support.cloudflare.com/hc/en-us">Cloudflare</a> |
+  <a href="https://doc.traefik.io/traefik/">Traefik Proxy</a> |
   <a href="https://docs.nextcloud.com/">NextCloud</a> |
-  <a href="">Bitwarden</a> |
-  <a href="">WordPress</a> |
+  <a href="https://github.com/dani-garcia/bitwarden_rs/wiki">Bitwarden</a> |
+  <a href="https://codex.wordpress.org/Getting_Started_with_WordPress">WordPress</a> |
   <a href="">Ghost-blog</a> |
   <a href="">Joomla</a> |
   <a href="">Ansible</a>
