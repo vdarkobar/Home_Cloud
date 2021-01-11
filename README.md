@@ -2,7 +2,7 @@
 
 <p align="center">
 Small <i><a href="https://github.com/vdarkobar/Home_Cloud#services-to-be-used-behind-traefik">Home-Cloud</a>, behind <a href="https://doc.traefik.io/traefik/getting-started/quick-start/">Traefik Proxy</a>, using <a href="https://pve.proxmox.com/pve-docs/pve-admin-guide.html">Proxmox</a>, <a href="https://www.debian.org/doc/">Debian</a> and <a href="https://docs.docker.com/">Docker</a> to run:</i> <b></br>
-<b>NextCloud | Bitwarden | WordPress | Ghost | Joomla</b>
+<i>NextCloud</i> | <i>Bitwarden</i> | <i>WordPress</i> | <i>Ghost</i> | <i>Joomla</i>
 </p>  
 
 ---
