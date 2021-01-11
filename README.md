@@ -75,7 +75,7 @@ Firewall Settings:
 <p align="center">
   <b> Wait for DNS entries to propagate. Optionally, edit CloudFlare Firewall rules. </b><br>
   <b> In order to see if Let’s Encrypt is working pause CloudFlare on selected website before running docker-compose. </b><br>
-  <b> (Advanced Actions > Pause Cloudflare on Site) </b><br>
+  <b><i> Advanced Actions > Pause Cloudflare on Site </i></b><br>
 </p>
   
 ---
