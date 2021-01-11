@@ -1,7 +1,7 @@
 ---
 
 <p align="center">
-Small <i> Home-Cloud, behind <a href="https://doc.traefik.io/traefik/getting-started/quick-start/">Traefik Proxy</a>, using <a href="https://pve.proxmox.com/pve-docs/pve-admin-guide.html">Proxmox</a>, <a href="https://www.debian.org/doc/">Debian</a> and <a href="https://docs.docker.com/">Docker</a> to run:</i> <b></br>
+<i>Small Home-Cloud, behind <a href="https://github.com/vdarkobar/Home_Cloud#traefik-proxy">Traefik Proxy</a>, using <a href="https://github.com/vdarkobar/shared/blob/main/Proxmox.md#proxmox">Proxmox</a>, <a href="https://github.com/vdarkobar/shared/blob/main/Debian.md#debian">Debian</a> and <a href="https://github.com/vdarkobar/shared/blob/main/Docker.md#docker">Docker</a> to run:</i> <b></br>
 <i>NextCloud</i> | <i>Bitwarden</i> | <i>WordPress</i> | <i>Ghost</i> | <i>Joomla</i>
 </p>  
 
