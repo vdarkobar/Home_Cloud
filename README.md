@@ -201,7 +201,7 @@ sudo docker logs -tf --tail="50" traefik
 #### Example:  
 
 <pre>
-proxmox                                         server1                                                                 ...
+proxmox                                         server1
 └── server1                                     └── docker 
     │   └── docker                                  └── traefik
     │       └── traefik                                 ├── data
