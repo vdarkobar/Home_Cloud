@@ -250,5 +250,6 @@ proxmox                                         server1
   <br><br>
 </p>
   
-  
+<p align="center">
 <a href="https://github.com/vdarkobar/Home_Cloud#small-home-cloud">top of the page</a>
+</p>
