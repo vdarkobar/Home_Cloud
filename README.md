@@ -207,7 +207,7 @@ proxmox                                         server1
     │       └── traefik                                 ├── data
     │                                                   │   ├── acme.json
     server2                                             │   └── configurations
-    │   └── docker                                      │       ├── middlewares-chains.yml                                                              
+    │   └── docker                                      │       ├── middlewares-chains.yml
     │       ├── Bitwarden                               │       ├── middlewares.yml
     │       └── NextCloud                               │       └── tls.yml
     │                                                   ├── secrets
@@ -251,5 +251,4 @@ proxmox                                         server1
 </p>
   
   
-<a href="https://github.com/vdarkobar/Home_Cloud#small-home-cloud">top of the page</a>  
-  
+<a href="https://github.com/vdarkobar/Home_Cloud#small-home-cloud">top of the page</a>
