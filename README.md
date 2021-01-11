@@ -133,6 +133,7 @@ Portainer Port.
 ### Prepare <a href="https://dash.cloudflare.com/profile/api-tokens">CloudFlare Global API Key</a>:
   
 ### Select and run all at once. Enter required data:
+*Only works once, on wrong data input delete folder and clone again*.
 ```
 clear
 RED='\033[0;31m'
