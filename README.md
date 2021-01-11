@@ -3,6 +3,7 @@
 #### *Small Home-Cloud,*
 <p align="center">
 <i>behind <a href="https://github.com/vdarkobar/Home_Cloud#traefik-proxy">Traefik Proxy</a>, using <a href="https://github.com/vdarkobar/shared/blob/main/Proxmox.md#proxmox">Proxmox</a>, <a href="https://github.com/vdarkobar/shared/blob/main/Debian.md#debian">Debian</a> and <a href="https://github.com/vdarkobar/shared/blob/main/Docker.md#docker">Docker</a> to run:</i> <b></br>
+  
 <i><a href="https://github.com/vdarkobar/NextCloud#nextcloud">NextCloud</a></i> | <i><a href="https://github.com/vdarkobar/Bitwarden#bitwarden">Bitwarden</a></i> | <i><a href="https://github.com/vdarkobar/WordPress#wordpress">WordPress</a></i> | <i><a href="https://github.com/vdarkobar/Ghost-blog">Ghost</a></i> | <i><a href="https://github.com/vdarkobar/Portainer">Joomla</a></i>
 </p>  
 ---
