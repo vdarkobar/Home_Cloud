@@ -227,19 +227,25 @@ proxmox                                         server1
                                                     
 </pre>
 
-By segmenting services to different virtual machines makes it easy to dedicate resources to them, separate users as well as to move them to different hypervisors or for backup purposes.
+*By segmenting services to different virtual machines makes it easy to dedicate resources to them, separate users as well as to move them to different hypervisors or for backup purposes.*
 
-<a href="https://github.com/vdarkobar/Home_Cloud#small-home-cloud">top of the page</a>
-
-<!--- Commented out
+  
 <p align="center">
   <b>Resources:</b><br>
-  <a href="https://www.smarthomebeginner.com/traefik-2-docker-tutorial/">Link 1</a> |
-  <a href="https://github.com/htpcBeginner/docker-traefik">Link 2</a> |
-  <a href="https://github.com/CVJoint/traefik2">Link 3</a> |
-  <a href="https://tech.aufomm.com/">Link 4</a> |
-  <a href="https://goneuland.de/">Link 5</a> |
-  <a href="https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet">Link 6</a>
+  <a href="">Proxmox</a> |
+  <a href="">Debian</a> |
+  <a href="">Docker</a> |
+  <a href="">Cloudflare</a> |
+  <a href="">Traefik Proxy</a> |
+  <a href="">NextCloud</a> |
+  <a href="">Bitwarden</a> |
+  <a href="">WordPress</a> |
+  <a href="">Ghost-blog</a> |
+  <a href="">Joomla</a> |
+  <a href="">Ansible</a> |
   <br><br>
 </p>
---->
+  
+  
+<a href="https://github.com/vdarkobar/Home_Cloud#small-home-cloud">top of the page</a>  
+  
