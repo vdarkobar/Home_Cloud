@@ -82,7 +82,7 @@ Firewall Settings:
 ---
 #### *>> Enable port forwarding (80, 443) from your Router, or Gateway, to your Traefik instance (VM). <<*
 --- 
-<p>{{reading_time}}</p>  
+    
 # <a href="https://github.com/vdarkobar/Home_Cloud#traefik-proxy">Traefik Proxy</a>  
 
    Clone new VM from <a href="https://github.com/vdarkobar/shared/blob/main/Debian.md#debian">Template</a>, 
@@ -244,9 +244,9 @@ proxmox                                         server1
   <a href="https://docs.nextcloud.com/">NextCloud</a> |
   <a href="https://github.com/dani-garcia/bitwarden_rs/wiki">Bitwarden</a> |
   <a href="https://codex.wordpress.org/Getting_Started_with_WordPress">WordPress</a> |
-  <a href="">Ghost-blog</a> |
-  <a href="">Joomla</a> |
-  <a href="">Ansible</a>
+  <a href="https://ghost.org/docs/">Ghost-blog</a> |
+  <a href="https://docs.joomla.org/">Joomla</a> |
+  <a href="https://docs.ansible.com/ansible/latest/index.html">Ansible</a>
   <br><br>
 </p>
   
