@@ -134,8 +134,8 @@ Portainer Port.
   
 ### Select and run all at once. Enter required data:
 ```
-RED='\033[0;31m'
 clear
+RED='\033[0;31m'
 echo -ne "${RED}Enter Traefik username: "; read UNAME; \
 echo -ne "${RED}Enter Traefik password: "; read PASS; \
 echo -ne "${RED}Enter CloudFlare email: "; read CFEMAIL; \
