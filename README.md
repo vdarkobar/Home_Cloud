@@ -228,7 +228,7 @@ proxmox                                         server1
 </pre>
 
 *By segmenting services to different virtual machines makes it easy to dedicate resources to them, separate users as well as to move them to different hypervisors or for backup purposes.*
-
+</b><br>
   
 <p align="center">
   <b>Resources:</b><br>
