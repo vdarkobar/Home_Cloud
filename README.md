@@ -201,13 +201,13 @@ sudo docker logs -tf --tail="50" traefik
 #### Example:  
 
 <pre>
-proxmox                                         server1
+proxmox                                         server1                                                                 ...
 └── server1                                     └── docker 
     │   └── docker                                  └── traefik
     │       └── traefik                                 ├── data
     │                                                   │   ├── acme.json
     server2                                             │   └── configurations
-    │   └── docker                                      │       ├── middlewares-chains.yml
+    │   └── docker                                      │       ├── middlewares-chains.yml                                                              
     │       ├── Bitwarden                               │       ├── middlewares.yml
     │       └── NextCloud                               │       └── tls.yml
     │                                                   ├── secrets
