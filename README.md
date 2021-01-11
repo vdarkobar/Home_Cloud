@@ -246,7 +246,7 @@ proxmox                                         server1                         
   <a href="">WordPress</a> |
   <a href="">Ghost-blog</a> |
   <a href="">Joomla</a> |
-  <a href="">Ansible</a> |
+  <a href="">Ansible</a>
   <br><br>
 </p>
   
