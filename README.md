@@ -227,6 +227,8 @@ proxmox                                         server1
                                                     
 </pre>
 
+By segmenting services to different virtual machines makes it easy to dedicate resources to them, separate users as well as to move them to different hypervisors or for backup purposes.
+
 <a href="https://github.com/vdarkobar/Home_Cloud#small-home-cloud">top of the page</a>
 
 <!--- Commented out
