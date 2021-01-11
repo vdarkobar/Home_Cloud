@@ -190,9 +190,9 @@ sudo docker-compose up -d
   <br><br>
 </p>  
 <p align="center">
-<br><br>
-<a href="https://github.com/vdarkobar/Home_Cloud#small-home-cloud">top of the page</a>  
-</p> 
+<a href="https://github.com/vdarkobar/Home_Cloud#small-home-cloud">back to top</a>  
+</p>
+
 ---  
   
 ### Log:
