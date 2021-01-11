@@ -241,7 +241,7 @@ proxmox                                         server1
   <a href="">Docker</a> |
   <a href="">Cloudflare</a> |
   <a href="">Traefik Proxy</a> |
-  <a href="">NextCloud</a> |
+  <a href="https://docs.nextcloud.com/">NextCloud</a> |
   <a href="">Bitwarden</a> |
   <a href="">WordPress</a> |
   <a href="">Ghost-blog</a> |
