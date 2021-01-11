@@ -2,7 +2,7 @@
 
 #### *Small Home-Cloud,*
 <p align="center">
-<i>behind <a href="https://github.com/vdarkobar/Home_Cloud#traefik-proxy">Traefik Proxy</a>, using <a href="https://github.com/vdarkobar/shared/blob/main/Proxmox.md#proxmox">Proxmox</a>, <a href="https://github.com/vdarkobar/shared/blob/main/Debian.md#debian">Debian</a> and <a href="https://github.com/vdarkobar/shared/blob/main/Docker.md#docker">Docker</a> to run Services:</i> <b></br> <i><a href="https://github.com/vdarkobar/NextCloud#nextcloud">NextCloud</a></i> | <i><a href="https://github.com/vdarkobar/Bitwarden#bitwarden">Bitwarden</a></i> | <i><a href="https://github.com/vdarkobar/WordPress#wordpress">WordPress</a></i> | <i><a href="https://github.com/vdarkobar/Ghost-blog#ghost-blog">Ghost-blog</a></i> | <i><a href="https://github.com/vdarkobar/Portainer">Joomla</a></i>
+<i>behind <a href="https://github.com/vdarkobar/Home_Cloud#traefik-proxy">Traefik Proxy</a>, using <a href="https://github.com/vdarkobar/shared/blob/main/Proxmox.md#proxmox">Proxmox</a>, <a href="https://github.com/vdarkobar/shared/blob/main/Debian.md#debian">Debian</a> and <a href="https://github.com/vdarkobar/shared/blob/main/Docker.md#docker">Docker</a> to run services like:</i> <b></br> <i><a href="https://github.com/vdarkobar/NextCloud#nextcloud">NextCloud</a></i> | <i><a href="https://github.com/vdarkobar/Bitwarden#bitwarden">Bitwarden</a></i> | <i><a href="https://github.com/vdarkobar/WordPress#wordpress">WordPress</a></i> | <i><a href="https://github.com/vdarkobar/Ghost-blog#ghost-blog">Ghost-blog</a></i> | <i><a href="https://github.com/vdarkobar/Portainer">Joomla</a></i>
 </p>  
   
 ---
@@ -36,7 +36,7 @@ Login to <a href="https://dash.cloudflare.com/">CloudFlare</a> and point your ro
   <img src="https://github.com/vdarkobar/misc/blob/main/A-record.webp">
 </p>
   
-Add individual subdomains*, for all <a href="https://github.com/vdarkobar/Home_Cloud#small-home-cloud">Services</a>, pointing to your root domain (@ for the host).  
+Add individual subdomains*, for all <a href="https://github.com/vdarkobar/Home_Cloud#small-home-cloud">services</a>, pointing to your root domain (@ for the host).  
 ```
     CNAME | * | @ (or example.com)
 ```
