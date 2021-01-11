@@ -35,7 +35,7 @@ Login to <a href="https://dash.cloudflare.com/">CloudFlare</a> and point your ro
   <img src="https://github.com/vdarkobar/misc/blob/main/A-record.webp">
 </p>
   
-Add individual subdomains, for all <a href="https://github.com/vdarkobar/Home_Cloud#services-to-be-used-behind-traefik">Services</a>, pointing to your root domain (@ for the host).  
+Add individual subdomains*, for all <a href="https://github.com/vdarkobar/Home_Cloud#services-to-be-used-behind-traefik">Services</a>, pointing to your root domain (@ for the host).  
 ```
     CNAME | * | @ (or example.com)
 ```
