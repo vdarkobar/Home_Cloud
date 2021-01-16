@@ -126,7 +126,8 @@ Traefik username and password,
 CloudFlare email and API Key, 
 Time Zone, 
 Let's Encrypt Email, 
-Domain name and Subdomain for Traefik.
+Domain name, 
+Subdomain for Traefik.
 ```
   
 ### Prepare <a href="https://dash.cloudflare.com/profile/api-tokens">CloudFlare Global API Key</a>:
